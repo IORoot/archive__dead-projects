@@ -1,0 +1,16 @@
+.tile_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.tile {
+  -webkit-box-flex: 100px;
+      -ms-flex: 100px 0;
+          flex: 100px 0;
+  font-size: 10px;
+  margin: 0px 5px 5px 0px;
+}
+
