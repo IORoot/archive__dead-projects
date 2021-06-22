@@ -1,0 +1,8 @@
+/* This is the colour of the custom memberpress wrapper element for visual composer.
+ * The wrapper shows that the content is private to paid members only.
+ *
+ * This is enqueued from the movementDB/overrides/plugins/visual_composer/memberpress_shortcode_wrapper.php file.
+ */
+.vc_memberpress {
+    background-color: #FFF5AD !important;
+}

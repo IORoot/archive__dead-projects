@@ -1,0 +1,72 @@
+.c-hero {
+
+    //  ┌──────────────────────────────────────┐ 
+    //  │                                      │░
+    //  │            Default Panel             │░
+    //  │          to make the slides          │░
+    //  │                                      │░
+    //  └──────────────────────────────────────┘░
+    //   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+    &-panel {
+        overflow: hidden;
+        position: relative;
+
+        // //  ┌────────────────────────────────────────────────┐
+        // //  │         Default back to using Floats           │
+        // //  └────────────────────────────────────────────────┘  
+        // float:left; // Used to keep all panels in the right place.
+
+        // //  ┌────────────────────────────────────────────────┐
+        // //  │         Default back to using Flexbox          │
+        // //  └────────────────────────────────────────────────┘  
+        // display: flex;
+        // display: -webkit-box;  // OLD - iOS 6-, Safari 3.1-6, BB7 
+        // display: -ms-flexbox;  // TWEENER - IE 10 
+        // display: -webkit-flex; // NEW - Safari 6.1+. iOS 7.1+, BB10 
+
+        // align-items: center;    
+        // -webkit-align-items: center;
+
+        // justify-content: center;
+        // -webkit-justify-content: center;
+ 
+        // //  ┌────────────────────────────────────────────────┐
+        // //  │                CSS-Grid support                │
+        // //  └────────────────────────────────────────────────┘
+        // @supports (display: grid) {
+        //     display:grid;
+
+        //     grid-row-gap: 0px;
+        //     grid-column-gap: 0px; 
+
+        //     width: auto !important; // need this to override any specified widths
+
+        // }
+
+        // //  ┌────────────────────────────────────────────────┐
+        // //  │        Overlay Image, Content, Pre/Post        │
+        // //  └────────────────────────────────────────────────┘
+        // > * {
+        //     position: absolute; // This will place itself center to the flexbox instead of being a flex-item
+
+        //     @supports (display: grid) {
+        //         position: unset !important; // Disable the absolute positioning.
+        //         width: unset !important;    // Disable width setting because row-start/end will specify this. 
+ 
+        //         top: unset !important;
+        //         left: unset !important; 
+        //         bottom: unset !important;
+        //         right: unset !important; 
+        //     }
+        // }
+       
+        // //  ┌────────────────────────────────────────────────┐
+        // //  │   Place Image into the center of the flexbox   │
+        // //  └────────────────────────────────────────────────┘
+        // &__overlay {
+        //     margin: 0 auto;     // Used to center the absolute positioned image. along with left:0; right:0.
+        //     left: 0;
+        //     right: 0;
+        // }
+    }   
+}  

@@ -1,0 +1,65 @@
+/* MailChimp Newsletter Input Box */
+
+    .site #mc4wp-form-1 {
+        margin-top: 0px;
+    }
+
+    .site .mvdb-footer-newsletter-input {
+        border-radius: 0px;
+    }
+
+    .site .mvdb-footer-newsletter-submit {
+        background-color: #F9BE32;
+        border: 0px;
+        text-shadow: none;
+        padding: 5px 8px;
+        font-size: 12px;
+    }
+
+    .site .mvdb-footer-newsletter-label {
+        text-shadow: none;
+        color: #F9BE32;
+    }
+
+    .site .mc4wp-response .mc4wp-alert,
+    .site .mc4wp-response .mc4wp-notice{
+        color: #F9BE32;
+        text-shadow: none;
+    }
+
+/* Menubar */
+
+    .ubermenu a {
+        text-shadow: none;
+    }
+
+    .x-colophon #text-2.widget_text h4{
+        padding-left: 20px;
+    }
+
+/* Footer */
+    .x-colophon {
+        border: 0px !important;
+        box-shadow: none !important;
+    }
+
+    .x-colophon h4 {
+        text-shadow: none;
+        color: #F9BE32;
+        font-weight: 500;
+        font-size: 1.4rem;
+    }
+
+    .ubermenu_navigation_widget-class {
+        margin-top: 20px !important;
+    }
+    .widget_mc4wp_form_widget {
+        margin-top: 28px !important;
+    }
+
+/* Social Media Icons */
+.x-social-global a       { color: #F9BE32; }
+.x-social-global a:hover { color: #FFFFFF; }
+.x-social-global a:hover [class^="x-social-"]:before, .x-social-global a:hover [class*=" x-social-"]:before {
+    color: #F9BE32;
+}

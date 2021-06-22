@@ -1,0 +1,46 @@
+/* Parsedown TOC */
+
+#toc {
+    margin: 6rem 0rem;
+}
+
+/* All UL */
+#toc ul {
+    padding: 0rem 0rem 0rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    list-style-type: disc;
+}
+
+/* All LI */
+#toc li {
+    padding-bottom: 0rem;
+}
+
+/* All Links */
+#toc a {
+    margin-left: 0.5rem;
+}
+
+/* top level UL */
+#toc > ul {
+    list-style-type: decimal;
+    padding: 1rem 1rem 1rem 3rem;
+}
+#toc > ul::before {
+    content: "Table of Contents";
+    font-size: 2rem;
+    display: inline-block;
+    padding: 2rem 0rem;
+}
+
+/* Second level UL */
+#toc > ul > li > ul  { margin-bottom: 1rem; }
+
+/* Third level UL */
+#toc > ul > li > ul > li > ul { display: none; }
+
+/* Last UL - hide all the blockquote nested headers - broken */
+#toc > ul > li:last-child ul {
+    display: none;
+}

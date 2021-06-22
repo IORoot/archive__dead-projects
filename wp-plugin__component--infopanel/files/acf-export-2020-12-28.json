@@ -1,0 +1,749 @@
+[
+    {
+        "key": "group_5fe85fa752427",
+        "title": "WebComponent : InfoPanel Apple",
+        "fields": [
+            {
+                "key": "field_5fe863a658622",
+                "label": "<span class=\"mdi mdi-bacteria-outline\"><\/span> Instance",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5fe85fa75e034",
+                "label": "Slug",
+                "name": "infopanel_slug",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fe85fa75e0b6",
+                "label": "Classes",
+                "name": "infopanel_classes",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fe85fa75e127",
+                "label": "Description",
+                "name": "infopanel_description",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 3,
+                "new_lines": ""
+            },
+            {
+                "key": "field_5fe85fa75e186",
+                "label": "<span class=\"mdi mdi-image\"><\/span> Image",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5fe85fa75e1e3",
+                "label": "Overlay Image",
+                "name": "infopanel_overlay_image",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "return_format": "id",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_5fe85fa75e22a",
+                "label": "Image Type",
+                "name": "infopanel_overlay_type",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "30",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "choices": {
+                    "img": "<IMG>",
+                    "background": "background-image(url())"
+                },
+                "default_value": [],
+                "allow_null": 1,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5fe85fa75e269",
+                "label": "Lazyload",
+                "name": "infopanel_overlay_lazyload",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "20",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "message": "",
+                "default_value": 0,
+                "ui": 1,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            },
+            {
+                "key": "field_5fe85fa75e2a9",
+                "label": "Image CSS",
+                "name": "infopanel_overlay_css",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "ue__codemirror",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 10,
+                "new_lines": ""
+            },
+            {
+                "key": "field_5fe85fa75e2f6",
+                "label": "<span class=\"mdi mdi-arrange-bring-forward\"><\/span> Front",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5fe85fa75e344",
+                "label": "Front Top Layer HTML",
+                "name": "infopanel_front_pre_html",
+                "type": "textarea",
+                "instructions": "This lays over all elements. Use for buttons and interactive parts.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "ue__codemirror",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 10,
+                "new_lines": ""
+            },
+            {
+                "key": "field_5fe85fa75e384",
+                "label": "Front Content HTML",
+                "name": "infopanel_front_html",
+                "type": "textarea",
+                "instructions": "This is the main content area. Use for Titles, Text and images. Non-interactive.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "ue__codemirror",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 10,
+                "new_lines": ""
+            },
+            {
+                "key": "field_5fe85fa75e3c3",
+                "label": "Front Content CSS",
+                "name": "infopanel_front_css",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "ue__codemirror",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 10,
+                "new_lines": ""
+            },
+            {
+                "key": "field_5fe85fa75e402",
+                "label": "<span class=\"mdi mdi-arrange-send-backward\"><\/span> Back",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5fe85fa75e440",
+                "label": "Back Enabled",
+                "name": "infopanel_back_enabled",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "message": "",
+                "default_value": 0,
+                "ui": 1,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            },
+            {
+                "key": "field_5fe85fa75e47f",
+                "label": "Back Top Layer HTML",
+                "name": "infopanel_back_pre_html",
+                "type": "textarea",
+                "instructions": "This lays over all elements. Use for buttons and interactive parts.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "ue__codemirror",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 10,
+                "new_lines": ""
+            },
+            {
+                "key": "field_5fe85fa75e4be",
+                "label": "Back Content HTML",
+                "name": "infopanel_back_html",
+                "type": "textarea",
+                "instructions": "This is the main content area. Use for Titles, Text and images. Non-interactive.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "ue__codemirror",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 10,
+                "new_lines": ""
+            },
+            {
+                "key": "field_5fe85fa75e4fe",
+                "label": "Back CSS",
+                "name": "infopanel_back_css",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "ue__codemirror",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 10,
+                "new_lines": ""
+            },
+            {
+                "key": "field_5fe85fa75e53f",
+                "label": "<span class=\"mdi mdi-lifebuoy\"><\/span> Float",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5fe85fa75e57f",
+                "label": "Float Width",
+                "name": "infopanel_float_width",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "100%",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fe85fa75e5c0",
+                "label": "Float Height",
+                "name": "infopanel_float_height",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "696px",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fe85fa75e600",
+                "label": "Float Direction",
+                "name": "infopanel_float_direction",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "choices": {
+                    "-": "-",
+                    "Left": "Left",
+                    "Right": "Right",
+                    "None": "None"
+                },
+                "default_value": [
+                    "Left"
+                ],
+                "allow_null": 1,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5fe85fa75e645",
+                "label": "Float Clear",
+                "name": "infopanel_float_clear",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "choices": {
+                    "-": "-",
+                    "Left": "Left",
+                    "Right": "Right",
+                    "Both": "Both",
+                    "None": "None",
+                    "Inherit": "Inherit"
+                },
+                "default_value": [],
+                "allow_null": 1,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5fe85fa75e6fb",
+                "label": "Float CSS",
+                "name": "infopanel_float_css",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "ue__codemirror",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 10,
+                "new_lines": ""
+            },
+            {
+                "key": "field_5fe85fa75e74e",
+                "label": "<span class=\"mdi mdi-tablet-ipad\"><\/span> Tablet",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5fe85fa75e790",
+                "label": "Tablet Enabled",
+                "name": "infopanel_tablet_enabled",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "message": "",
+                "default_value": 0,
+                "ui": 1,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            },
+            {
+                "key": "field_5fe85fa75e7cf",
+                "label": "Tablet Breakpoint",
+                "name": "infopanel_tablet_breakpoint",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "1024px",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fe85fa75e80e",
+                "label": "Tablet CSS",
+                "name": "infopanel_tablet_css",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "ue__codemirror",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 10,
+                "new_lines": ""
+            },
+            {
+                "key": "field_5fe85fa75e84e",
+                "label": "<span class=\"mdi mdi-cellphone-iphone\"><\/span> Mobile",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5fe85fa75e88e",
+                "label": "Mobile Enabled",
+                "name": "infopanel_mobile_enabled",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "message": "",
+                "default_value": 0,
+                "ui": 1,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            },
+            {
+                "key": "field_5fe85fa75e8ce",
+                "label": "Mobile Breakpoint",
+                "name": "infopanel_mobile_breakpoint",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "768px",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fe85fa75e90e",
+                "label": "Mobile CSS",
+                "name": "infopanel_mobile_css",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "ue__codemirror",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 10,
+                "new_lines": ""
+            },
+            {
+                "key": "field_5fe85fa75e94f",
+                "label": "<span class=\"mdi mdi-language-css3\"><\/span> CSS",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5fe85fa75e992",
+                "label": "CSS",
+                "name": "infopanel_css",
+                "type": "textarea",
+                "instructions": "Use slug as top-level classname.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "ue__codemirror",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 10,
+                "new_lines": ""
+            },
+            {
+                "key": "field_5fe85fa75e9d7",
+                "label": "<span class=\"mdi mdi-language-javascript\"><\/span> JS",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5fe85fa75ea19",
+                "label": "Javascript",
+                "name": "infopanel_js",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "ue__codemirror",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 10,
+                "new_lines": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "componentshortcodes"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

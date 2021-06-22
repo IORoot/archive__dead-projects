@@ -1,0 +1,7 @@
+/* This is the colour of the custom mycred wrapper element for visual composer.
+ *
+ * This is enqueued from the movementDB/overrides/plugins/visual_composer/mycred_video_element.php file.
+ */
+.wpb_mycred_video .wpb_element_wrapper {
+    background-color: #BEEEF5;
+}

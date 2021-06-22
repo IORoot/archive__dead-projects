@@ -1,0 +1,89 @@
+
+.tbk-schedule-list {
+
+    background: #f5f5f5;
+
+    .tbk-schedule-slots {
+
+        padding: 0px;
+
+        .tbk-esortation {
+            display: none;
+        }
+
+        .tbk-schedule-slot {
+            border: 0px !important;
+            margin: 29px 5px 27px 5px;
+            padding: 0px;
+            border-radius: 0px;
+            transition: transform 0.3s linear;
+
+            &:hover {
+                background: #242424 !important;
+                opacity: 0.7;
+                box-shadow: rgba(62, 57, 107, 0.18) 0px 16px 32px 0px, transparent 0px 0px 0px;
+                transform: translate(0px, -5px);
+            }
+
+            .tbk-slot-container {
+
+                color: #ffffff;
+                font-size: 18px !important;
+                padding: 29px;
+
+                .tb-icon {
+                    height: 0px;
+                }
+
+                .tbk-cell {
+                    height: 29px !important;
+                    line-height: 29px;
+                }
+ 
+                .tbk-header-row {
+
+                    .tbk-ev-txt-wrap {
+                        font-family: $font_family;
+                        font-size: 18px;
+                        line-height: 29px; 
+                    }
+
+                }
+
+                .tbk-meta {
+                    .tb-service-info {
+                        font-family: $font_family;
+                        font-size: 18px;
+                        line-height: 29px;
+                        height: 29px;
+                        display: block;
+                    }
+                }
+
+                .description {
+                    font-family: $font_family;
+                    font-size: 18px;
+                    line-height: 29px;
+                }
+               
+            }
+
+            .goldengrid {
+                background-color: #ffffff;
+
+                @include goldenGrid(2);
+            }
+
+            .image {
+                height: 290px;
+                width: 100%;
+    
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+                background-size: auto 80%;
+
+                @include classBackgrounds('background');
+            }
+        }
+    }
+}

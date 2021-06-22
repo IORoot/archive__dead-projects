@@ -1,0 +1,273 @@
+[
+    {
+        "key": "group_5e6dea82b223d",
+        "title": "Metafizzy Isotope Shortcodes",
+        "fields": [
+            {
+                "key": "field_5e6dea82c2804",
+                "label": "Help",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "message": "<h4>Reference Links<\/h4>\r\n<a href=\"https:\/\/developer.wordpress.org\/reference\/classes\/wp_query\/parse_query\/\">Post Query Terms<\/a><br\/>\r\n<a href=\"https:\/\/developer.wordpress.org\/reference\/classes\/wp_term_query\/__construct\/\">Taxonomy Query Terms<\/a><br\/>\r\n<a href=\"https:\/\/isotope.metafizzy.co\/\">Isotope Options<\/a>",
+                "new_lines": "wpautop",
+                "esc_html": 0
+            },
+            {
+                "key": "field_5e6dea82c2b6c",
+                "label": "Shortcode Parameters",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "75",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "message": "The <code>[andyp_grid_posts]<\/code> Shortcode has the following parameters:\r\n- <code>slug=\"taxonomy_latest\"<\/code> This is the slug created below to use in the shortcode.\r\n- <code>tax=\"articlecategory\"<\/code> The taxonomy to filter the query by.\r\n- <code>term=\"cat-pass\"<\/code> The term slug to use on the taxonomy to filter.\r\n- <code>type=\"tax\"<\/code> Used to run 'get_terms' rather than 'get_posts'.\r\n\r\n<h3>Examples<\/h3>\r\n<code>[andyp_grid_posts slug=\"taxonomy_latest\"]<\/code><br\/>\r\n<code>[andyp_grid_posts slug=\"taxonomy_latest\" tax=\"articlecategory\" term=\"cat-pass\"]<\/code>",
+                "new_lines": "wpautop",
+                "esc_html": 0
+            },
+            {
+                "key": "field_5e6dea8348ea8",
+                "label": "Isotope Shortcode",
+                "name": "isotope_shortcode",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "collapsed": "field_5e6dea8364f94",
+                "min": 0,
+                "max": 0,
+                "layout": "block",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5e6dea8364f02",
+                        "label": "Shortcode Slug",
+                        "name": "shortcode_slug",
+                        "type": "text",
+                        "instructions": "No spaces in slug.",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "20",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5e6dea8364f94",
+                        "label": "Shortcode Title",
+                        "name": "shortcode_title",
+                        "type": "text",
+                        "instructions": "Used to label the grid",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "40",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5e6dea8365657",
+                        "label": "Cells in Row",
+                        "name": "viewport_cells",
+                        "type": "number",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "8",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "min": "",
+                        "max": "",
+                        "step": ""
+                    },
+                    {
+                        "key": "field_5e6dea8365b98",
+                        "label": "Image Grid Line Height",
+                        "name": "viewport_vertical_grid",
+                        "type": "number",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "10",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "min": "",
+                        "max": "",
+                        "step": ""
+                    },
+                    {
+                        "key": "field_5e711e51a6521",
+                        "label": "Render Filters",
+                        "name": "render_filters",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "10",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "message": "",
+                        "default_value": 0,
+                        "ui": 1,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    },
+                    {
+                        "key": "field_5e7a4a4d7cef5",
+                        "label": "Request Type",
+                        "name": "request_type",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "12",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "choices": {
+                            "get_posts": "get_posts",
+                            "get_terms": "get_terms"
+                        },
+                        "default_value": [],
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "ui": 1,
+                        "ajax": 0,
+                        "return_format": "value",
+                        "placeholder": ""
+                    },
+                    {
+                        "key": "field_5e6dea836b085",
+                        "label": "Arguments",
+                        "name": "args",
+                        "type": "textarea",
+                        "instructions": "Array for the Query $args",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "33",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "default_value": "[\r\n    'post_type' => 'article',\r\n    'post_status' => 'publish',\r\n    'order' => 'DESC',\r\n    'numberposts' => -1,\r\n    'has_password' => FALSE,\r\n]",
+                        "placeholder": "",
+                        "maxlength": "",
+                        "rows": "",
+                        "new_lines": ""
+                    },
+                    {
+                        "key": "field_5e6dea836f9cd",
+                        "label": "Isotope Arguments",
+                        "name": "isotope_args",
+                        "type": "textarea",
+                        "instructions": "Array for the HTML isotope $args",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "33",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "default_value": "{\r\n    \"itemSelector\": \".andyp-isotope__cell\",\r\n    \"layoutMode\": \"fitRows\"\r\n}",
+                        "placeholder": "",
+                        "maxlength": "",
+                        "rows": "",
+                        "new_lines": ""
+                    },
+                    {
+                        "key": "field_5e6dea8370fee",
+                        "label": "Isotope CSS",
+                        "name": "isotope_css",
+                        "type": "textarea",
+                        "instructions": "Custom CSS for this isotope instance.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "34",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "default_value": "",
+                        "placeholder": "",
+                        "maxlength": "",
+                        "rows": "",
+                        "new_lines": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "isotopeshortcodes"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

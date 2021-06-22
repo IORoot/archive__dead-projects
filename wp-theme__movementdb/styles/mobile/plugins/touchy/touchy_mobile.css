@@ -1,0 +1,16 @@
+/* Touchy Mobile menu */
+.touchy-avatar-link {
+    display: block;
+    max-height:15px;
+}
+.mvdb-touchy-avatar-name {
+    font-size: 9px;
+}
+.mvdb-touchy-avatar {
+    width: 20px;
+    height: 20px;
+    max-width: 20px !important;
+    max-height: 20px !important;
+    margin-right: 5px;
+    border-radius: 50% !important;
+}

@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "psr-4": {
+            "andyp\\atomic_admin\\": "src/"
+        }
+    },
+    "require": {
+        "erusev/parsedown": "^1.7"
+    }
+}

@@ -1,0 +1,217 @@
+@charset "UTF-8";
+/* Mixins */
+.londonparkour .calendar_main_container .tbk-main-calendar-settings {
+  margin: 0px;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar {
+  color: #242424;
+  background: transparent;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-schedule-list-navigation,
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-main-calendar-navigation {
+  background-color: #ffffff;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-schedule-list-navigation .dashicons,
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-main-calendar-navigation .dashicons {
+  padding: 0px;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-schedule-list-navigation .dashicons:after,
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-main-calendar-navigation .dashicons:after {
+  font-family: "Material Icons";
+  font-size: 29px;
+  line-height: 58px;
+  display: block;
+  color: #E34F65;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-schedule-list-navigation .dashicons-arrow-left-alt2:after,
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-main-calendar-navigation .dashicons-arrow-left-alt2:after {
+  content: "";
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-schedule-list-navigation .dashicons-arrow-right-alt2:after,
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-main-calendar-navigation .dashicons-arrow-right-alt2:after {
+  content: "";
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-schedule-list-navigation .tbk-calendar-month-selector,
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-main-calendar-navigation .tbk-calendar-month-selector {
+  font-family: Gill Sans, Gill Sans MT, sans-serif;
+  line-height: 58px;
+  font-size: 29px;
+  color: #E34F65;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-schedule-list-navigation .tbk-calendar-year-selector,
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-main-calendar-navigation .tbk-calendar-year-selector {
+  font-family: Gill Sans, Gill Sans MT, sans-serif;
+  line-height: 58px;
+  font-size: 29px;
+  color: #242424;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-schedule-list-navigation .tbk-schedule-date,
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-main-calendar-navigation .tbk-schedule-date {
+  font-family: Gill Sans, Gill Sans MT, sans-serif;
+  line-height: 58px;
+  font-size: 29px;
+  color: #242424;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-schedule-list-navigation .tbk-schedule-filter-icons,
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-main-calendar-navigation .tbk-schedule-filter-icons {
+  display: none;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tb-fast-selector-month-panel {
+  background: #f5f5f5;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tb-fast-selector-month-panel .tbk-month-selector {
+  padding: 0px !important;
+  line-height: 29px;
+  font-size: 18px;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tb-fast-selector-year-panel {
+  background: #f5f5f5;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tb-fast-selector-year-panel .tbk-year-selector {
+  padding: 0px !important;
+  line-height: 29px;
+  font-size: 18px;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-calendar-view-content .tbk-monthly-view .tb-calendar-line .tb-weekline-day {
+  font-family: Gill Sans, Gill Sans MT, sans-serif;
+  line-height: 58px !important;
+  padding: 0px;
+  color: #E34F65;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-calendar-view-content .tbk-monthly-view .tb-days {
+  padding: 0px;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-calendar-view-content .tbk-monthly-view .tb-days > .tbk-column {
+  padding: 0px;
+  background-color: #fafafa;
+  margin: 2px;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-calendar-view-content .tbk-monthly-view .tb-days > .tbk-column .tb-day {
+  font-family: Gill Sans, Gill Sans MT, sans-serif;
+  line-height: 58px !important;
+  font-size: 18px !important;
+  padding: 0px;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-calendar-view-content .tbk-monthly-view .tb-days > .tbk-column .tb-day > div:first-child {
+  line-height: 54px !important;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-calendar-view-content .tbk-monthly-view .tb-days > .tbk-column .tb-day:hover {
+  background: #424242;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-calendar-view-content .tbk-monthly-view .tb-days > .tbk-column .tb-day.pastday {
+  color: #e0e0e0;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-calendar-view-content .tbk-monthly-view .tb-days > .tbk-column .tb-day.slots {
+  background-color: #FAFAFA;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-calendar-view-content .tbk-monthly-view .tb-days > .tbk-column .tb-day.slots > div:first-child {
+  background-color: #E34F65;
+  color: #fff;
+  line-height: 54px !important;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-calendar-view-content .tbk-monthly-view .tb-days > .tbk-column .tb-day.slots:hover {
+  background: #424242;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-calendar-view-content .tbk-monthly-view .tb-days > .tbk-column .tb-day.slots .ui.pointing.above.label.computer.only.tbk-column {
+  background: transparent;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-calendar-view-content .tbk-monthly-view .tb-days > .tbk-column .tb-day.slots .ui.tbk-circular.label {
+  border-radius: 0px;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-calendar-view-content .tbk-monthly-view .tb-days > .tbk-column .tb-day.slots .label {
+  padding: 0px;
+  border-radius: 0px;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-calendar-view-content .tbk-monthly-view .tb-days > .tbk-column .tb-day.slots .tb-pointing-label-dots {
+  font-size: 12px !important;
+  display: block;
+  padding: 0px !important;
+  margin: 0px !important;
+  line-height: 29px !important;
+  background: transparent;
+}
+.londonparkour .calendar_main_container .tb-frontend-calendar .tbk-slide-canvas .tbk-slide .tbk-calendar-view-content .tbk-monthly-view .tb-days > .tbk-column .tb-day.today {
+  background-color: #e0e0e0;
+}
+.londonparkour .calendar_main_container .tbk-schedule-list {
+  background: #f5f5f5;
+}
+.londonparkour .calendar_main_container .tbk-schedule-list .tbk-schedule-slots {
+  padding: 0px;
+}
+.londonparkour .calendar_main_container .tbk-schedule-list .tbk-schedule-slots .tbk-esortation {
+  display: none;
+}
+.londonparkour .calendar_main_container .tbk-schedule-list .tbk-schedule-slots .tbk-schedule-slot {
+  border: 0px !important;
+  margin: 29px 5px 27px 5px;
+  padding: 0px;
+  border-radius: 0px;
+  transition: transform 0.3s linear;
+}
+.londonparkour .calendar_main_container .tbk-schedule-list .tbk-schedule-slots .tbk-schedule-slot:hover {
+  background: #242424 !important;
+  opacity: 0.7;
+  box-shadow: rgba(62, 57, 107, 0.18) 0px 16px 32px 0px, transparent 0px 0px 0px;
+  transform: translate(0px, -5px);
+}
+.londonparkour .calendar_main_container .tbk-schedule-list .tbk-schedule-slots .tbk-schedule-slot .tbk-slot-container {
+  color: #ffffff;
+  font-size: 18px !important;
+  padding: 29px;
+}
+.londonparkour .calendar_main_container .tbk-schedule-list .tbk-schedule-slots .tbk-schedule-slot .tbk-slot-container .tb-icon {
+  height: 0px;
+}
+.londonparkour .calendar_main_container .tbk-schedule-list .tbk-schedule-slots .tbk-schedule-slot .tbk-slot-container .tbk-cell {
+  height: 29px !important;
+  line-height: 29px;
+}
+.londonparkour .calendar_main_container .tbk-schedule-list .tbk-schedule-slots .tbk-schedule-slot .tbk-slot-container .tbk-header-row .tbk-ev-txt-wrap {
+  font-family: Gill Sans, Gill Sans MT, sans-serif;
+  font-size: 18px;
+  line-height: 29px;
+}
+.londonparkour .calendar_main_container .tbk-schedule-list .tbk-schedule-slots .tbk-schedule-slot .tbk-slot-container .tbk-meta .tb-service-info {
+  font-family: Gill Sans, Gill Sans MT, sans-serif;
+  font-size: 18px;
+  line-height: 29px;
+  height: 29px;
+  display: block;
+}
+.londonparkour .calendar_main_container .tbk-schedule-list .tbk-schedule-slots .tbk-schedule-slot .tbk-slot-container .description {
+  font-family: Gill Sans, Gill Sans MT, sans-serif;
+  font-size: 18px;
+  line-height: 29px;
+}
+.londonparkour .calendar_main_container .tbk-schedule-list .tbk-schedule-slots .tbk-schedule-slot .goldengrid {
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 1921 1082' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Grids' stroke='none' stroke-width='2' fill='none' fill-rule='evenodd' stroke-linecap='square'%3E%3Cg id='Grid-/-GoldenCanonGrid-1920' transform='translate(1.000000, 0.000000)' stroke='%23242424' %3E%3Cpath d='M1.17002645,2.58823529 L1917.67335,1079.41176' id='Line' opacity='0.200000003'%3E%3C/path%3E%3Cpath d='M1.17002645,2.58823529 L1917.67335,1079.41176' id='Line' opacity='0.200000003' transform='translate(959.421687, 541.000000) scale(1, -1) translate(-959.421687, -541.000000) '%3E%3C/path%3E%3Cpath d='M960.0067,2.58823529 L1918.25836,1079.41176' id='Line' opacity='0.200000003'%3E%3C/path%3E%3Cpath d='M960.0067,2.58823529 L1918.25836,1079.41176' id='Line' opacity='0.200000003' transform='translate(1439.132530, 541.000000) scale(1, -1) translate(-1439.132530, -541.000000) '%3E%3C/path%3E%3Cpath d='M0.585013224,2.58823529 L958.836674,1079.41176' id='Line' opacity='0.200000003'%3E%3C/path%3E%3Cpath d='M0.585013224,2.58823529 L958.836674,1079.41176' id='Line' opacity='0.200000003' transform='translate(479.710843, 541.000000) scale(1, -1) translate(-479.710843, -541.000000) '%3E%3C/path%3E%3Cpath d='M0.292682927,1.58970588 L479.707317,1079.41029' id='Line' opacity='0.200000003'%3E%3C/path%3E%3Cpath d='M0.292682927,1.58970588 L479.707317,1079.41029' id='Line' opacity='0.200000003' transform='translate(240.000000, 540.500000) scale(1, -1) translate(-240.000000, -540.500000) '%3E%3C/path%3E%3Cpath d='M479.292507,1.58970588 L958.418337,1079.41029' id='Line' opacity='0.200000003'%3E%3C/path%3E%3Cpath d='M479.292507,1.58970588 L958.418337,1079.41029' id='Line' opacity='0.200000003' transform='translate(718.855422, 540.500000) scale(1, -1) translate(-718.855422, -540.500000) '%3E%3C/path%3E%3Cpath d='M960.291897,1.58970588 L1438.41955,1079.41029' id='Line' opacity='0.200000003'%3E%3C/path%3E%3Cpath d='M960.291897,1.58970588 L1438.41955,1079.41029' id='Line' opacity='0.200000003' transform='translate(1199.355723, 540.500000) scale(1, -1) translate(-1199.355723, -540.500000) '%3E%3C/path%3E%3Cpath d='M1439.29251,1.58970588 L1918.41834,1079.41029' id='Line' opacity='0.200000003'%3E%3C/path%3E%3Cpath d='M1439.29251,1.58970588 L1918.41834,1079.41029' id='Line' opacity='0.200000003' transform='translate(1678.855422, 540.500000) scale(1, -1) translate(-1678.855422, -540.500000) '%3E%3C/path%3E%3Cpath d='M959.421687,1 L959.421687,1081' id='Line' opacity='0.100000001'%3E%3C/path%3E%3Cpath d='M479.37079,1 L479.37079,1081' id='Line' opacity='0.100000001'%3E%3C/path%3E%3Cpath d='M716.340053,1 L716.340053,1081' id='Line' opacity='0.100000001'%3E%3C/path%3E%3Cpath d='M1199.34005,1 L1199.34005,1081' id='Line' opacity='0.100000001'%3E%3C/path%3E%3Cpath d='M238.340053,1 L238.340053,1081' id='Line' opacity='0.100000001'%3E%3C/path%3E%3Cpath d='M1678.34005,1 L1678.34005,1081' id='Line' opacity='0.100000001'%3E%3C/path%3E%3Cpath d='M1438.79248,1 L1438.79248,1081' id='Line' opacity='0.100000001'%3E%3C/path%3E%3Cpath d='M0,217 L1918.84337,217' id='Line' opacity='0.100000001'%3E%3C/path%3E%3Cpath d='M0,865.176471 L1918.84337,865.176471' id='Line' opacity='0.100000001'%3E%3C/path%3E%3Cpath d='M0,720.176471 L1918.84337,720.176471' id='Line' opacity='0.100000001'%3E%3C/path%3E%3Cpath d='M0,360.176471 L1918.84337,360.176471' id='Line' opacity='0.100000001'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.londonparkour .calendar_main_container .tbk-schedule-list .tbk-schedule-slots .tbk-schedule-slot .image {
+  height: 290px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: auto 80%;
+}
+.londonparkour .calendar_main_container .tbk-schedule-list .tbk-schedule-slots .tbk-schedule-slot .image__beginner-indoor {
+  background: url("/wp-content/uploads/2019/09/Kevin_Speed_Vault_800x760.png") no-repeat 50% 100%/auto 250px;
+}
+.londonparkour .calendar_main_container .tbk-schedule-list .tbk-schedule-slots .tbk-schedule-slot .image__commandotemple {
+  background: url("/wp-content/uploads/2019/09/box_jump_486x700.png") no-repeat 50% 100%/auto 250px;
+}
+.londonparkour .calendar_main_container .tbk-schedule-list .tbk-schedule-slots .tbk-schedule-slot .image__beginner-outdoor {
+  background: url("/wp-content/uploads/2019/09/lizzie_cat_balance_1000x509.png") no-repeat 50% 80%/auto 200px;
+}
+.londonparkour .calendar_main_container .tbk-schedule-list .tbk-schedule-slots .tbk-schedule-slot .image__youth-parkour-8-14 {
+  background: url("/wp-content/uploads/2019/09/Youth_Balanced.png") no-repeat 0% 100%/auto 250px;
+}
+.londonparkour .calendar_main_container .tbk-schedule-list .tbk-schedule-slots .tbk-schedule-slot .image__free-class {
+  background: url("/wp-content/uploads/2019/09/kevin_landing_532x800.png") no-repeat 50% 100%/auto 250px;
+}
+.londonparkour .calendar_main_container .tbk-schedule-list .tbk-schedule-slots .tbk-schedule-slot .image__private-booking {
+  background: url("/wp-content/uploads/2019/09/kevin_landing_532x800.png") no-repeat 50% 100%/auto 250px;
+}
+
+/*# sourceMappingURL=style.css.map */

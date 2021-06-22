@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "classmap": [
+            "src",
+            "src/cpt",
+            "src/admin"
+        ]
+    },
+
+    "require": {
+        "mgp25/instagram-php": "^4.0"
+    }
+
+}

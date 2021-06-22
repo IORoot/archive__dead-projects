@@ -1,0 +1,17 @@
+/*
+    The standard width breakpoints.
+
+    - 0px to 960px  (mobile)
+    - 960px to 1024 (tablet)
+    - 1024px +      (desktop)
+
+ */
+
+        /*
+         * Anything UNDER 960px
+         * - Tablet / Mobile
+         * - max-width: 960px
+         */
+                @media screen and (max-width: 960px) {
+                    
+                }

@@ -1,0 +1,22 @@
+/*
+    The standard width breakpoints.
+
+    - 0px to 960px  (mobile)
+    - 960px to 1024 (tablet)
+    - 1024px +      (desktop)
+
+ */
+
+        /* Media Queries. Remove Slider UNDER 1024px width. */
+        @media screen and (max-width: 1023px) {
+            .site .series .rev_slider .responsive_slider {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 1023px) {
+            .site .series .responsive_content {
+                padding-top: 40px !important;
+            }
+        }
+

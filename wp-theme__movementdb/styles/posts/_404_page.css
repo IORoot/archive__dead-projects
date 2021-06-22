@@ -1,0 +1,16 @@
+.mvdb-search-icon {
+    display: block;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.mvdb-search-icon a i.x-icon-search {
+    color: #F9BE32 !important;
+}
+.mvdb-search-icon a i.x-icon-search:hover {
+    color: #FFFFFF !important;
+}
+
+#tco-under-construction-bypass-form {
+    display:block !important;
+}

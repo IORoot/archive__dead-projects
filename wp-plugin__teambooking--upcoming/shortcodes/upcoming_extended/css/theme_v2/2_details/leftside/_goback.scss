@@ -1,0 +1,28 @@
+//  ┌────────────────────────────────────────────────┐
+//  │                 Go back button                 │
+//  └────────────────────────────────────────────────┘
+.tbk-reservation-form-navigation {
+    float: left;
+    width: 8.33%;
+
+    .tbk-details {
+        &__goback {
+
+            &--commandotemple-indoor {
+                color: #fff;
+            }
+
+            .mdi {
+                width: 58px;
+                height: 58px;
+                
+            }
+
+            &:hover {
+                i {
+                    color: #242424;
+                }
+            }         
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.heropanel-container {
+  overflow: hidden;
+  display: block;
+}
+.heropanel-panel {
+  overflow: hidden;
+  position: relative;
+}
+
+/*# sourceMappingURL=heropanel.css.map */

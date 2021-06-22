@@ -1,0 +1,111 @@
+//  ┌────────────────────────────────────────────────┐
+//  │              Year / Month Header               │
+//  └────────────────────────────────────────────────┘
+
+
+    //  ┌────────────────────────────────────────────────┐
+    //  │               Top Bar Navigation               │
+    //  └────────────────────────────────────────────────┘
+    .tbk-schedule-list-navigation,
+    .tbk-main-calendar-navigation {
+
+        background-color: #ffffff;
+
+        //  ┌────────────────────────────────────────────────┐
+        //  │                     Arrows                     │
+        //  └────────────────────────────────────────────────┘
+
+
+        // Both Icons
+        .dashicons {
+
+            padding: 0px;
+
+            &:after {
+                font-family: "Material Icons";
+                font-size: 29px;
+                line-height: 58px;
+                display: block;
+                color: $primary_color;
+            }
+        }
+
+        // Arrow left
+        .dashicons-arrow-left-alt2 {
+            &:after {
+                content: '\e5cb';
+            }
+        }
+
+        // Arrow Right
+        .dashicons-arrow-right-alt2 {
+            &:after {
+                content: '\e5cc';
+            }
+        }
+        
+
+        //  ┌────────────────────────────────────────────────┐
+        //  │                 Month Selector                 │
+        //  └────────────────────────────────────────────────┘
+        .tbk-calendar-month-selector {
+            font-family: $font_family;
+            line-height: 58px;
+            font-size: 29px;
+            color: $primary_color;
+        }
+
+        //  ┌────────────────────────────────────────────────┐
+        //  │                 Year Selector                  │
+        //  └────────────────────────────────────────────────┘
+        .tbk-calendar-year-selector {
+            font-family: $font_family;
+            line-height: 58px;
+            font-size: 29px;
+            color: #242424;
+        }
+
+        //  ┌────────────────────────────────────────────────┐
+        //  │               2_slotview - Title               │
+        //  └────────────────────────────────────────────────┘     
+        .tbk-schedule-date {
+            font-family: $font_family;
+            line-height: 58px;
+            font-size: 29px;
+            color: #242424;
+        }
+
+        .tbk-schedule-filter-icons {
+            display: none;
+        }
+
+    }
+
+    //  ┌────────────────────────────────────────────────┐
+    //  │                     Months                     │
+    //  └────────────────────────────────────────────────┘
+    .tb-fast-selector-month-panel {
+
+        background: #f5f5f5;
+
+        .tbk-month-selector {
+            padding: 0px !important;
+            line-height: 29px;
+            font-size: 18px;
+        }
+
+    }
+
+    //  ┌────────────────────────────────────────────────┐
+    //  │                     Years                      │
+    //  └────────────────────────────────────────────────┘  
+    .tb-fast-selector-year-panel {
+
+        background: #f5f5f5;
+
+        .tbk-year-selector {
+            padding: 0px !important;
+            line-height: 29px;
+            font-size: 18px;
+        }
+    }

@@ -1,0 +1,5 @@
+.ubermenu.ubermenu-main .ubermenu-item-level-0:hover > .ubermenu-target,
+.ubermenu-main .ubermenu-item-level-0.ubermenu-active > .ubermenu-target {
+    background: none;
+    background-color: rgba(36,36,36,0.2) !important;
+}

@@ -1,0 +1,12 @@
+.heropanel {
+
+    &-container {
+        overflow: hidden;  
+        display: block;
+    }  
+    
+    &-panel {
+        overflow: hidden;
+        position: relative;
+    }   
+} 

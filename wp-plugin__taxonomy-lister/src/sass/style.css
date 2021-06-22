@@ -1,0 +1,40 @@
+.andyp-tax-list__header {
+  color: #757575;
+  margin-top: 58px;
+}
+
+ul.andyp-tax-list {
+  list-style: none;
+  padding: 0px;
+  margin-bottom: 29px;
+}
+ul.andyp-tax-list li {
+  display: inline-block;
+  width: 16.66%;
+  line-height: 29px;
+  padding: 0px 29px 0px 0px;
+  vertical-align: text-top;
+}
+ul.andyp-tax-list li a {
+  display: inline-block;
+  color: #757575;
+  text-decoration: none;
+}
+ul.andyp-tax-list li a:hover {
+  color: #E34F65;
+  text-decoration: underline;
+  transition: all 0.2s ease-in;
+}
+
+@media (max-width: 1023px) {
+  ul.andyp-tax-list li {
+    width: 33%;
+  }
+}
+@media (max-width: 767px) {
+  ul.andyp-tax-list li {
+    width: 50%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

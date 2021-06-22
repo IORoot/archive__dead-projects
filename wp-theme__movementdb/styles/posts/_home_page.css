@@ -1,0 +1,105 @@
+/*
+ * Page Changes
+ */
+
+        .home-page .masthead {
+            position: absolute;
+            width: 100%;
+        }
+
+        .home-page .eg-mvdb-homepage-latest-series-element-3 {
+            display: none !important;
+        }
+        .home-page .eg-mvdb-homepage-latest-series-wrapper .glyph {
+            width:200px;
+        }
+
+/*
+ * Ubermenu
+ */
+
+        .home-page .ubermenu-main .ubermenu-item-level-0 > .ubermenu-target {
+            color: #ffffff;
+        }
+
+
+/*
+ * Revolution Slider
+ */
+
+        /* The main B&W photo cutout image */
+        .mvdb-series-featured-image img{
+            max-height: 500px !important;
+            max-width: 500px !important;
+        }
+
+        .mvdb-homepage-glyph svg{
+            fill: #ffffff;
+        }
+
+        .mvdb-homepage-glyph-small svg{
+            fill: #ffffff;
+        }
+
+        .mvdb-homepage-category-image img {
+            opacity: 0.1;
+        }
+
+        .eg-mvdb-homepage-hotspots-wrapper svg{
+            fill: #F9BE32;
+            width:80px;
+            height:80px;
+        }
+
+        .mvdb_homepage_revslider_series_link_button {
+            padding: 16px 40px 16px 40px;
+            border-radius: 50px;
+            -webkit-box-shadow: 8px 8px 20px 5px rgba(0,0,0,0.3) !important;
+            -moz-box-shadow: 8px 8px 20px 5px rgba(0,0,0,0.3) !important;
+            box-shadow: 8px 8px 20px 5px rgba(0,0,0,0.3) !important;
+        }
+
+        /* Adjust H2. Using H2 For SEO. */
+        #rev_slider_18_1 h2 {
+            margin-top: 40px !important;
+        }
+
+        /* Homepage Slider Panel */
+        .mvdb-homepage-panel-colour {
+            height:510px;
+            margin: 0px 50px;
+            display: block;
+            border-radius: 20px;
+            -webkit-box-shadow: 10px 10px 40px 5px rgba(0,0,0,0.3);
+            -moz-box-shadow: 10px 10px 40px 5px rgba(0,0,0,0.3);
+            box-shadow: 10px 10px 40px 5px rgba(0,0,0,0.3);
+        }
+
+        .mvdb-homepage-panel-white {
+            background-color: #ffffff !important;
+            height:510px;
+            margin: 0px 50px;
+            display: block;
+            border-radius: 20px 0px 0px 20px;
+            min-width:50% !important;
+            width:50%;
+        }
+        .mvdb-homepage-panel-white:before {
+            z-index: -1;
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 22%;
+            display: block;
+            width: 40%;
+            background: #ffffff;
+            -webkit-transform: skew(-24deg);
+            -ms-transform: skew(-24deg);
+            transform: skew(-24deg);
+        }
+
+        /* Homepage Slider Glyph Sizes */
+        .homepage_glyph svg#Strength_Glyph {
+            max-height: 250px !important;
+        }

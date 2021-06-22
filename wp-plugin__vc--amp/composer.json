@@ -1,0 +1,14 @@
+{
+    "name": "andrewpearson/andyp_amp_wpbakery",
+    "authors": [
+        {
+            "name": "Andy Pearson",
+            "email": "andy@londonparkour.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src"
+        ]
+    }
+}

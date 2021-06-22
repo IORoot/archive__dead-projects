@@ -1,0 +1,53 @@
+$tablet: 1023px;
+$mobile: 767px;
+
+.andyp-tax-list__header {
+    color: #757575;
+    margin-top: 58px;
+}
+
+ul.andyp-tax-list {
+
+    list-style: none;
+    padding: 0px;
+    margin-bottom: 29px;
+
+    li {
+        display: inline-block;
+        width: 16.66%;
+        line-height: 29px;
+        padding: 0px 29px 0px 0px;
+        vertical-align: text-top;
+
+        a {
+            display: inline-block;
+            color: #757575;
+            text-decoration:none;
+
+            &:hover {
+                color: #E34F65;
+                text-decoration: underline;
+                transition: all 0.2s ease-in;   
+            }
+        }
+    }
+
+}
+
+// Change widths on tablet.
+@media (max-width: $tablet) {
+    ul.andyp-tax-list {  
+        li {
+            width: 33%;
+        }
+    }
+}
+
+// Change widths on tablet.
+@media (max-width: $mobile) {
+    ul.andyp-tax-list {  
+        li {
+            width: 50%; 
+        }
+    }
+}

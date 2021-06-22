@@ -1,0 +1,7 @@
+#sfm-sidebar .sfm-search-form span {
+    top: 34px;
+}
+
+#sfm-sidebar .sfm-search-form input[type=text] {
+    margin-bottom: 0px;
+}

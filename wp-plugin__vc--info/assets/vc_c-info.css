@@ -1,0 +1,52 @@
+.c-info {
+  position: relative;
+}
+.c-info > * {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.c-info--toggled {
+  z-index: 4;
+}
+.c-info__panel--front > * {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.c-info__panel--front .c-info__overlay {
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.c-info__panel--back {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.c-info__panel--back > * {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.c-info__button {
+  cursor: pointer;
+}
+.c-info__underlay {
+  background-color: #000000;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.c-info__underlay--on {
+  opacity: 0.2;
+  transition: opacity 0.5s ease-in-out;
+  z-index: 3;
+}
+
+/*# sourceMappingURL=vc_c-info.css.map */

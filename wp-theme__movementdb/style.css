@@ -1,0 +1,67 @@
+/*
+Theme Name: MovementDB
+Theme URI: https://movementDB.com/
+Author: Andy Pearson
+Description: MovementDB is a premium resource for Parkour and practical movement tutorial video series.
+Template: x
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: MovementDB
+*/
+
+/* Need to IMPORT styles into the style.css file instead of using the wp_enqueue_style function
+ * because otherwise it will not override the parent style.css file contents.
+ * ALSO make sure there is a .site or body tag at the front to be more specific on the selector.
+
+PRIMARY COLOURS
+#fbc02d, #69f0ae, #1a237e, #ff5252,
+
+GREYS
+#242424, #424242, #757575, #e0e0e0, #ffffff,
+
+SECONDARY GROUP
+#ff9800, #e91e63, #9c27b0, #673ab7, #3f51b5, #2196f3, #00bcd4, #009688, #4caf50, #8bc34a, #cddc39, #ffeb3b
+*/
+
+/* Site-wide Styles */
+@import url("./styles/admin.css");
+@import url("./styles/sitewide.css");
+@import url("./styles/mobile/mobile.css");
+@import url("./styles/footer.css");
+
+/* Posts / Page Styles */
+@import url("./styles/posts/_404_page.css");
+@import url("./styles/posts/_prices_page.css");
+@import url("./styles/posts/_video_posts.css");
+@import url("./styles/posts/_series_posts.css");
+@import url("./styles/posts/_home_page.css");
+@import url("./styles/posts/_knowledgebase.css");
+
+/* SVG Slider Animation*/
+@import url("./styles/svg_animation.css");
+
+/* Revolution Slider Styles */
+@import url("./styles/plugins/revslider/fixes.css");
+@import url("./styles/plugins/revslider/preloader.css");
+
+/* Revolution Slider Styles */
+@import url("./styles/plugins/essgrid/_page_library.css");
+@import url("./styles/plugins/essgrid/_page_series.css");
+@import url("./styles/plugins/essgrid/_page_search.css");
+
+/* BuddyPress Pages */
+@import url("./styles/plugins/buddypress/_buddypress_profile.css");
+
+/* MemberPress Pages */
+@import url("./styles/plugins/memberpress/_login.css");
+@import url("./styles/plugins/memberpress/_membership.css");
+
+/* Superfly Mobile Menu */
+@import url("./styles/plugins/superfly/_mobile_menu.css");
+
+/* Ubermenu Menu */
+@import url("./styles/plugins/ubermenu/main_menu.css");
+
+/* Helpie Overrides */
+@import url("./styles/plugins/helpie/_helpie_overrides.css");

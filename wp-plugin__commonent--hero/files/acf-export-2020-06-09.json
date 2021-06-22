@@ -1,0 +1,1128 @@
+[
+    {
+        "key": "group_5edca1a941515",
+        "title": "WebComponent : Hero",
+        "fields": [
+            {
+                "key": "field_5edcac57b5c17",
+                "label": "Hero Instance",
+                "name": "andyp_hero_instance",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "collapsed": "field_5edcad3c858bb",
+                "min": 0,
+                "max": 0,
+                "layout": "block",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5edcad3c858bb",
+                        "label": "Slug",
+                        "name": "wc_hero_slug",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5edcacf2b5c18",
+                        "label": "Container",
+                        "name": "",
+                        "type": "tab",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "placement": "top",
+                        "endpoint": 0
+                    },
+                    {
+                        "key": "field_5edcb0baaae75",
+                        "label": "",
+                        "name": "wc_hero_container_group",
+                        "type": "group",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "layout": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_5edcb0feaae77",
+                                "label": "Float",
+                                "name": "",
+                                "type": "tab",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "hide_admin": 0,
+                                "placement": "top",
+                                "endpoint": 0
+                            },
+                            {
+                                "key": "field_5edcb0042a2c9",
+                                "label": "Float CSS",
+                                "name": "wc_hero_container_float_css",
+                                "type": "textarea",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "hide_admin": 0,
+                                "default_value": "display: block;\r\nwidth: 100%;\r\nheight: 812px;\r\nfloat: left;",
+                                "placeholder": "",
+                                "maxlength": "",
+                                "rows": "",
+                                "new_lines": ""
+                            },
+                            {
+                                "key": "field_5edcb110aae78",
+                                "label": "Grid",
+                                "name": "",
+                                "type": "tab",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "hide_admin": 0,
+                                "placement": "top",
+                                "endpoint": 0
+                            },
+                            {
+                                "key": "field_5edcb1bfc360c",
+                                "label": "Enabled",
+                                "name": "wc_hero_container_grid_enabled",
+                                "type": "true_false",
+                                "instructions": "Only works if \"@supports (display: grid) {\"",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "hide_admin": 0,
+                                "message": "",
+                                "default_value": 0,
+                                "ui": 1,
+                                "ui_on_text": "",
+                                "ui_off_text": ""
+                            },
+                            {
+                                "key": "field_5edcb332c360f",
+                                "label": "Grid CSS Rules",
+                                "name": "wc_hero_container_grid_css",
+                                "type": "textarea",
+                                "instructions": "Rules only. No classes of moustache brackets.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "hide_admin": 0,
+                                "default_value": "",
+                                "placeholder": "",
+                                "maxlength": "",
+                                "rows": 20,
+                                "new_lines": ""
+                            },
+                            {
+                                "key": "field_5edcb126aae79",
+                                "label": "Tablet",
+                                "name": "",
+                                "type": "tab",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "hide_admin": 0,
+                                "placement": "top",
+                                "endpoint": 0
+                            },
+                            {
+                                "key": "field_5edcb1f3c360d",
+                                "label": "Enabled",
+                                "name": "wc_hero_container_tablet_enabled",
+                                "type": "true_false",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "hide_admin": 0,
+                                "message": "",
+                                "default_value": 0,
+                                "ui": 1,
+                                "ui_on_text": "",
+                                "ui_off_text": ""
+                            },
+                            {
+                                "key": "field_5edcb3a0c3612",
+                                "label": "Breakpoint",
+                                "name": "wc_hero_container_tablet_breakpoint",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "20",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "hide_admin": 0,
+                                "default_value": "1024px",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5edcb35ec3610",
+                                "label": "Float CSS Rules",
+                                "name": "wc_hero_container_tablet_float_css",
+                                "type": "textarea",
+                                "instructions": "Rules only. No classes\/IDs",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "hide_admin": 0,
+                                "default_value": "",
+                                "placeholder": "",
+                                "maxlength": "",
+                                "rows": 20,
+                                "new_lines": ""
+                            },
+                            {
+                                "key": "field_5edcb38ec3611",
+                                "label": "Grid CSS Rules",
+                                "name": "wc_hero_container_tablet_grid_css",
+                                "type": "textarea",
+                                "instructions": "Rules only. No classes\/IDs",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "hide_admin": 0,
+                                "default_value": "",
+                                "placeholder": "",
+                                "maxlength": "",
+                                "rows": 20,
+                                "new_lines": ""
+                            },
+                            {
+                                "key": "field_5edcb134aae7a",
+                                "label": "Mobile",
+                                "name": "",
+                                "type": "tab",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "hide_admin": 0,
+                                "placement": "top",
+                                "endpoint": 0
+                            },
+                            {
+                                "key": "field_5edcb202c360e",
+                                "label": "Enabled",
+                                "name": "wc_hero_container_mobile_enabled",
+                                "type": "true_false",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "hide_admin": 0,
+                                "message": "",
+                                "default_value": 0,
+                                "ui": 1,
+                                "ui_on_text": "",
+                                "ui_off_text": ""
+                            },
+                            {
+                                "key": "field_5edcb3ecc3614",
+                                "label": "Breakpoint",
+                                "name": "wc_hero_container_mobile_breakpoint",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "20",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "hide_admin": 0,
+                                "default_value": "768px",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5edcb424c3616",
+                                "label": "Float CSS Rules",
+                                "name": "wc_hero_container_mobile_float_css",
+                                "type": "textarea",
+                                "instructions": "Rules only. No classes\/IDs",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "hide_admin": 0,
+                                "default_value": "",
+                                "placeholder": "",
+                                "maxlength": "",
+                                "rows": 20,
+                                "new_lines": ""
+                            },
+                            {
+                                "key": "field_5edcb437c3617",
+                                "label": "Grid CSS Rules",
+                                "name": "wc_hero_container_mobile_grid_css",
+                                "type": "textarea",
+                                "instructions": "Rules only. No classes\/IDs",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "hide_admin": 0,
+                                "default_value": "",
+                                "placeholder": "",
+                                "maxlength": "",
+                                "rows": 20,
+                                "new_lines": ""
+                            },
+                            {
+                                "key": "field_5edcb13aaae7b",
+                                "label": "CSS",
+                                "name": "",
+                                "type": "tab",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "hide_admin": 0,
+                                "placement": "top",
+                                "endpoint": 0
+                            },
+                            {
+                                "key": "field_5edcb44ac3618",
+                                "label": "CSS",
+                                "name": "wc_hero_container_css",
+                                "type": "textarea",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "hide_admin": 0,
+                                "default_value": "",
+                                "placeholder": "",
+                                "maxlength": "",
+                                "rows": 20,
+                                "new_lines": ""
+                            },
+                            {
+                                "key": "field_5edcb140aae7c",
+                                "label": "JS",
+                                "name": "",
+                                "type": "tab",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "hide_admin": 0,
+                                "placement": "top",
+                                "endpoint": 0
+                            },
+                            {
+                                "key": "field_5edcb475c3619",
+                                "label": "JS",
+                                "name": "wc_hero_container_js",
+                                "type": "textarea",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "hide_admin": 0,
+                                "default_value": "",
+                                "placeholder": "",
+                                "maxlength": "",
+                                "rows": 20,
+                                "new_lines": ""
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_5edcad11b5c19",
+                        "label": "Panels",
+                        "name": "",
+                        "type": "tab",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "placement": "top",
+                        "endpoint": 0
+                    },
+                    {
+                        "key": "field_5edcb5c0c88b9",
+                        "label": "",
+                        "name": "wc_hero_panel_group",
+                        "type": "group",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "layout": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_5edcb5d5c88ba",
+                                "label": "Panel Instance",
+                                "name": "wc_hero_panel_instance",
+                                "type": "repeater",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "hide_admin": 0,
+                                "collapsed": "field_5edcb62fc88d3",
+                                "min": 0,
+                                "max": 0,
+                                "layout": "block",
+                                "button_label": "",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_5edcb62fc88d3",
+                                        "label": "Slug",
+                                        "name": "wc_hero_panel_slug",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "50",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "maxlength": ""
+                                    },
+                                    {
+                                        "key": "field_5edccbe5d2b80",
+                                        "label": "Classes",
+                                        "name": "wc_hero_panel_classes",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "50",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "maxlength": ""
+                                    },
+                                    {
+                                        "key": "field_5edcb612c88bb",
+                                        "label": "",
+                                        "name": "wc_hero_panel_group",
+                                        "type": "group",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "layout": "block",
+                                        "sub_fields": [
+                                            {
+                                                "key": "field_5edccc26d2b81",
+                                                "label": "Image",
+                                                "name": "",
+                                                "type": "tab",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "placement": "top",
+                                                "endpoint": 0
+                                            },
+                                            {
+                                                "key": "field_5edccd6bd2b83",
+                                                "label": "Image",
+                                                "name": "wc_hero_panel_image",
+                                                "type": "image",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "33",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "return_format": "id",
+                                                "preview_size": "medium",
+                                                "library": "all",
+                                                "min_width": "",
+                                                "min_height": "",
+                                                "min_size": "",
+                                                "max_width": "",
+                                                "max_height": "",
+                                                "max_size": "",
+                                                "mime_types": ""
+                                            },
+                                            {
+                                                "key": "field_5edccdccd2b84",
+                                                "label": "Image Type",
+                                                "name": "wc_hero_panel_image_type",
+                                                "type": "select",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "33",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "choices": {
+                                                    "background": "background-image:url()",
+                                                    "img": "<IMG>"
+                                                },
+                                                "default_value": [
+                                                    "background"
+                                                ],
+                                                "allow_null": 1,
+                                                "multiple": 0,
+                                                "ui": 0,
+                                                "return_format": "value",
+                                                "ajax": 0,
+                                                "placeholder": ""
+                                            },
+                                            {
+                                                "key": "field_5edcce3fd2b85",
+                                                "label": "Image Lazyload",
+                                                "name": "wc_hero_panel_image_lazyload",
+                                                "type": "true_false",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "33",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "message": "",
+                                                "default_value": 0,
+                                                "ui": 1,
+                                                "ui_on_text": "",
+                                                "ui_off_text": ""
+                                            },
+                                            {
+                                                "key": "field_5edcce77d2b86",
+                                                "label": "Image CSS",
+                                                "name": "wc_hero_panel_image_css",
+                                                "type": "textarea",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "maxlength": "",
+                                                "rows": "",
+                                                "new_lines": ""
+                                            },
+                                            {
+                                                "key": "field_5edccc4dd2b82",
+                                                "label": "Content",
+                                                "name": "",
+                                                "type": "tab",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "placement": "top",
+                                                "endpoint": 0
+                                            },
+                                            {
+                                                "key": "field_5edcce90d2b87",
+                                                "label": "Content Pre HTML",
+                                                "name": "wc_hero_panel_content_pre_html",
+                                                "type": "textarea",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "50",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "maxlength": "",
+                                                "rows": "",
+                                                "new_lines": ""
+                                            },
+                                            {
+                                                "key": "field_5edcced2d2b88",
+                                                "label": "Content HTML",
+                                                "name": "wc_hero_panel_content_html",
+                                                "type": "textarea",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "50",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "maxlength": "",
+                                                "rows": "",
+                                                "new_lines": ""
+                                            },
+                                            {
+                                                "key": "field_5edccee1d2b89",
+                                                "label": "Content CSS",
+                                                "name": "wc_hero_panel_content_css",
+                                                "type": "textarea",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "maxlength": "",
+                                                "rows": 20,
+                                                "new_lines": ""
+                                            },
+                                            {
+                                                "key": "field_5edcb612c88bc",
+                                                "label": "Float",
+                                                "name": "",
+                                                "type": "tab",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "placement": "top",
+                                                "endpoint": 0
+                                            },
+                                            {
+                                                "key": "field_5edcb612c88c1",
+                                                "label": "Float CSS",
+                                                "name": "wc_hero_panel_float_css",
+                                                "type": "textarea",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "maxlength": "",
+                                                "rows": "",
+                                                "new_lines": ""
+                                            },
+                                            {
+                                                "key": "field_5edcb612c88c2",
+                                                "label": "Grid",
+                                                "name": "",
+                                                "type": "tab",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "placement": "top",
+                                                "endpoint": 0
+                                            },
+                                            {
+                                                "key": "field_5edcb612c88c3",
+                                                "label": "Enabled",
+                                                "name": "wc_hero_panel_grid_enabled",
+                                                "type": "true_false",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "message": "",
+                                                "default_value": 0,
+                                                "ui": 1,
+                                                "ui_on_text": "",
+                                                "ui_off_text": ""
+                                            },
+                                            {
+                                                "key": "field_5edcb612c88c4",
+                                                "label": "Grid CSS",
+                                                "name": "wc_hero_panel_grid_css",
+                                                "type": "textarea",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "maxlength": "",
+                                                "rows": 20,
+                                                "new_lines": ""
+                                            },
+                                            {
+                                                "key": "field_5edcb612c88c5",
+                                                "label": "Tablet",
+                                                "name": "",
+                                                "type": "tab",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "placement": "top",
+                                                "endpoint": 0
+                                            },
+                                            {
+                                                "key": "field_5edcb612c88c6",
+                                                "label": "Enabled",
+                                                "name": "wc_hero_panel_tablet_enabled",
+                                                "type": "true_false",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "50",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "message": "",
+                                                "default_value": 0,
+                                                "ui": 1,
+                                                "ui_on_text": "",
+                                                "ui_off_text": ""
+                                            },
+                                            {
+                                                "key": "field_5edcb612c88c7",
+                                                "label": "Breakpoint",
+                                                "name": "wc_hero_panel_tablet_breakpoint",
+                                                "type": "text",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "20",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "1024px",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": "",
+                                                "maxlength": ""
+                                            },
+                                            {
+                                                "key": "field_5edcb612c88c8",
+                                                "label": "Float CSS",
+                                                "name": "wc_hero_panel_tablet_float_css",
+                                                "type": "textarea",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "50",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "maxlength": "",
+                                                "rows": 20,
+                                                "new_lines": ""
+                                            },
+                                            {
+                                                "key": "field_5edcb612c88c9",
+                                                "label": "Grid CSS",
+                                                "name": "wc_hero_panel_tablet_grid_css",
+                                                "type": "textarea",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "50",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "maxlength": "",
+                                                "rows": 20,
+                                                "new_lines": ""
+                                            },
+                                            {
+                                                "key": "field_5edcb612c88ca",
+                                                "label": "Mobile",
+                                                "name": "",
+                                                "type": "tab",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "placement": "top",
+                                                "endpoint": 0
+                                            },
+                                            {
+                                                "key": "field_5edcb612c88cb",
+                                                "label": "Enabled",
+                                                "name": "wc_hero_panel_mobile_enabled",
+                                                "type": "true_false",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "50",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "message": "",
+                                                "default_value": 0,
+                                                "ui": 1,
+                                                "ui_on_text": "",
+                                                "ui_off_text": ""
+                                            },
+                                            {
+                                                "key": "field_5edcb612c88cc",
+                                                "label": "Breakpoint",
+                                                "name": "wc_hero_panel_mobile_breakpoint",
+                                                "type": "text",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "20",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "768px",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": "",
+                                                "maxlength": ""
+                                            },
+                                            {
+                                                "key": "field_5edcb612c88cd",
+                                                "label": "Float CSS",
+                                                "name": "wc_hero_panel_mobile_float_css",
+                                                "type": "textarea",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "50",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "maxlength": "",
+                                                "rows": 20,
+                                                "new_lines": ""
+                                            },
+                                            {
+                                                "key": "field_5edcb612c88ce",
+                                                "label": "Grid CSS",
+                                                "name": "wc_hero_panel_mobile_grid_css",
+                                                "type": "textarea",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "50",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "maxlength": "",
+                                                "rows": 20,
+                                                "new_lines": ""
+                                            },
+                                            {
+                                                "key": "field_5edcb612c88cf",
+                                                "label": "CSS",
+                                                "name": "",
+                                                "type": "tab",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "placement": "top",
+                                                "endpoint": 0
+                                            },
+                                            {
+                                                "key": "field_5edcb612c88d0",
+                                                "label": "CSS",
+                                                "name": "wc_hero_panel_css",
+                                                "type": "textarea",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "maxlength": "",
+                                                "rows": 20,
+                                                "new_lines": ""
+                                            },
+                                            {
+                                                "key": "field_5edcb612c88d1",
+                                                "label": "JS",
+                                                "name": "",
+                                                "type": "tab",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "placement": "top",
+                                                "endpoint": 0
+                                            },
+                                            {
+                                                "key": "field_5edcb612c88d2",
+                                                "label": "JS",
+                                                "name": "wc_hero_panel_js",
+                                                "type": "textarea",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "maxlength": "",
+                                                "rows": 20,
+                                                "new_lines": ""
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "componentshortcodes"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

@@ -1,0 +1,272 @@
+.mec-modal-container {
+
+    overflow: visible;
+
+    .modal-content {
+        height: fit-content;
+        background-color: #f5f5f5;
+        text-align: left;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        right: 0;
+        min-height: 493px;
+        width: 70%;
+        max-width: 600px;
+        border-radius: 4px;
+        overflow: scroll !important; 
+        pointer-events: auto;
+        cursor: auto;
+        margin: 5% 0px;
+
+        .stripecard {
+            position: relative;
+            width: 50%;
+            left: 50%;
+            transform: translateX(-50%); 
+            height: auto;
+            padding: 20px 4%;
+        }
+
+        // progress bar
+        .progress {
+            margin: 10px 10% 0px 10%;
+            width: 80%;
+            height: 3px;
+
+            &__step {
+                width: 28%;
+                height: 3px;
+                margin: 0px 3% 0px 2%; 
+                background-color: #fff;
+                float: left; 
+            }
+        }
+
+        // Booking container
+        .mec-booking {
+            width: 100%;
+            padding: 29px 20px;
+
+            label, span {
+                font-size: 18px;
+            }
+            // buttons
+            button {
+                margin: 0px;
+                width: 100%;
+
+                &.mec-book-form-back-button {
+                    background-color: #242424;
+
+                    &:hover {
+                        background-color: #fff;
+                        color: #000;
+                    }
+                }
+
+                &.mec-book-form-next-button {
+                    &:hover {
+                        background-color: #38EF7D;
+                        color: #242424;
+                    }
+                }
+            }
+            
+            // main form
+            form {
+
+                h4 { display: none; }
+
+                // ┌─────────────────────────────────────────────────────────────────────────┐
+                // │                                                                         │
+                // │                                  STEP 1                                 │
+                // │                                                                         │
+                // └─────────────────────────────────────────────────────────────────────────┘
+                .mec-book-first,
+                .mec-event-tickets-list {
+                    padding: 0px;
+
+                    .mec-book-ticket-limit,
+                    select {
+                        width: 100%;
+                    }
+                }
+
+                button#mec-book-form-btn-step-1 {
+                    width: 100%;
+
+                    &:hover {
+                        background-color: #38EF7D;
+                    }
+                }
+
+                .mec-event-ticket-available {
+                    display: none;
+                }
+                // ┌─────────────────────────────────────────────────────────────────────────┐
+                // │                                                                         │
+                // │                                  STEP 2                                 │
+                // │                                                                         │
+                // └─────────────────────────────────────────────────────────────────────────┘
+                .col-md-12 {
+                    padding: 0px;
+                }
+                ul li {
+                    margin-top: 0px;
+                }
+
+                .mec-book-form-btn-wrap {
+                    button {
+                        margin: 29px 0px;
+                        width:50%;
+                        min-width: 50%;
+                    }
+                }
+
+                .mec-book-reg-field-name,
+                .mec-book-reg-field-mec_email {
+                    input {
+                        width: 100%;
+                    }
+                }
+                .mec-book-reg-field-agreement {
+                    input {
+                        margin: 5px 6px 0px 0px;
+                    }
+                }
+            }
+
+            // ┌─────────────────────────────────────────────────────────────────────────┐
+            // │                                                                         │
+            // │                                  STEP 3                                 │
+            // │                                                                         │
+            // └─────────────────────────────────────────────────────────────────────────┘
+            #mec_book_payment_form {
+
+                h4 {
+                    display: none;
+                }
+
+                // price
+                .mec-book-form-price {
+                    .mec-book-price-details {
+                        display: none;
+                    }
+                    .mec-book-price-total {
+                        margin: 0px;
+                        padding: 0px;
+                        font-size: 20px;
+                    }
+                }
+
+                // coupon form
+                .mec-book-form-coupon {
+                    form {
+                        padding: 0px;
+                        margin-top: 10px;
+                        
+                        input[type=text] {
+                            width: 50%;
+                            min-width: 50%;
+                            float: left;
+                        }
+
+                        button {
+                            width: 50%;
+                            min-width: 50%;
+                            padding: 17px 0px 16px;
+                            font-size: 0.7em;
+                        }
+                    }
+                }
+
+                // payment gateways (stripe / locally)
+                .mec-book-form-gateways {
+                    width: 100%;
+                    margin: 10px 0px;
+
+                    // option labels.
+                    .mec-book-form-gateway-label {
+                        width: 50%;
+                        height: 29px;
+
+                        label {
+                            padding: 0px;
+                            margin: 0px;
+                            height: 29px;
+                            line-height: 29px;
+                            position: absolute;
+                        }
+                    }
+
+                    .mec-gateway-comment {
+                        display: none;
+                    } 
+
+                    // Local
+                    .mec-book-form-gateway-checkout {
+                        margin-top:10px;
+                        
+                        form {
+                            padding: 0px;
+                            min-width: 100%;
+
+                            button {
+                                width: 50%;
+                                min-width: 50%;
+                            }
+                            input {
+                                margin-bottom: 0px;
+                                width: 100%;
+                            }
+                            .mec-form-row {
+                                margin-bottom: 0px;
+
+                                label {
+                                    margin-bottom: 0px;
+                                }
+                            }
+                            // PAY BUTTON
+                            .mec-click-pay {
+                                display: inline;
+                            }
+                        }
+                    }
+                }
+                #mec-book-form-back-btn-step-3 {
+                    width: 50%;
+                    min-width: 50%;
+                }
+
+                // direct decendent is the 'free' form
+                > form {
+                    padding: 0px;
+                    width:50%;
+
+                    button {
+                        min-width: 50%;
+                        font-size: 0.7em;
+                        max-height: 46px;
+                        padding: 19px 0px;
+                    }
+                }
+            }
+            
+        }
+
+    } 
+
+
+    @media (max-width: 767px) {
+        #modal-toggle:checked ~ .modal-backdrop {
+            opacity: 0;
+        }
+        .modal-content {
+            width: calc(100vw - 40px);
+            height: calc(100vh - 40px);
+        }
+    }
+}  

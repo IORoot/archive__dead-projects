@@ -1,0 +1,134 @@
+[
+    {
+        "key": "group_5dfb5684c4bf8",
+        "title": "Coupon Generator",
+        "fields": [
+            {
+                "key": "field_5dfb568d91246",
+                "label": "Coupons",
+                "name": "coupons",
+                "type": "repeater",
+                "instructions": "Create coupons for teambooking when a stripe payment is made for specific products",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5dfb56c591247",
+                        "label": "Stripe Payments - Product ID",
+                        "name": "stripe_product_id",
+                        "type": "post_object",
+                        "instructions": "Which products will generate a coupon?",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "post_type": [
+                            "asp-products"
+                        ],
+                        "taxonomy": "",
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "return_format": "id",
+                        "ui": 1
+                    },
+                    {
+                        "key": "field_5dfb575191248",
+                        "label": "Coupon code discount percentage",
+                        "name": "coupon_discount_percentage",
+                        "type": "number",
+                        "instructions": "The % to discount the classes.",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "default_value": 100,
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "min": "",
+                        "max": "",
+                        "step": ""
+                    },
+                    {
+                        "key": "field_5dfb579391249",
+                        "label": "Coupon code prefix",
+                        "name": "coupon_code_prefix",
+                        "type": "text",
+                        "instructions": "ldnpk-[prefix]-D83TEK8",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5dfb57a29124a",
+                        "label": "Coupon code class limit",
+                        "name": "coupon_class_limit",
+                        "type": "number",
+                        "instructions": "Number of classes the coupon will give you.",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "min": "",
+                        "max": "",
+                        "step": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "coupongenerator"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "Create coupons for team booking when stripe makes a payment"
+    }
+]

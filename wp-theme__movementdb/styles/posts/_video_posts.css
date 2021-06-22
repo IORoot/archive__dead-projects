@@ -1,0 +1,254 @@
+/* This makes the video iframe 80% width (600px height) of the above featured entry box. */
+.site .post .mycred-video {
+    width: 100%;
+    max-height:600px;
+}
+
+.site .post .vc_custom_1505408585179 {
+    padding:0px;
+    max-height: 600px;
+}
+
+    /* Top Padding on post - remove to stop it pushing the top video down away from menubar. */
+.site .post .entry-wrap {
+    box-shadow: none;
+    padding-top: 0px;
+}
+.site .post .entry-content {
+    margin-top: 0px;
+}
+
+/* Remove the top margin on a post header. */
+.site .post h1 {
+    margin-top: 0px;
+    margin-bottom: 1em;
+}
+
+.site .post .mvdb-content p {
+    font-size: 1.4em;
+}
+
+.site .post .mvdb-content li {
+    font-size: 1.4em;
+    margin: 0px 0px 10px 10px;
+}
+
+/* Widen the spacing of the date text. */
+.site .post #post_date {
+    letter-spacing: 2px;
+}
+
+/* ACF Video-Duration Field. */
+.site .mvdb-video-duration {
+    text-transform: uppercase;
+    color: #fbc02d;
+    font-weight: 600;
+}
+
+/* Parent Category Tag */
+.site .mvdb-post-category {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+/* Parent Category Tag */
+.site .mvdb-video-series {
+    display: inline-block;
+    color: #757575;
+}
+.site .mvdb-video-series:hover {
+    text-decoration: underline;
+}
+
+/* ACF Post Level */
+    .site .mvdb-post-level {
+        display: inline-block;
+        padding: 3px 10px;
+        background: #424242;
+        border-radius: 100000px;
+        color: #ffffff;
+        margin: 0px 20px 20px 0px;
+        text-transform: uppercase;
+    }
+
+    /* Beginner Level Green Colour*/
+    .site .mvdb-post-level-beginner {
+        background: #69f0ae;
+        color: #242424;
+    }
+
+    /* Intermediate Level Yellow Colour*/
+    .site .mvdb-post-level-intermediate {
+        background: #fbc02d;
+    }
+
+    /* Advanced Level Red Colour*/
+    .site .mvdb-post-level-advanced {
+        background: #ff5252;
+    }
+
+    /* Coach Level Blue Colour*/
+    .site .mvdb-post-level-coach {
+        background: #1a237e;
+    }
+
+/* ACF Related Videos */
+
+    /* UL - Remove the list item bullet */
+    .site .mvdb-related-videos {
+        list-style: none;
+        margin-left: 0px;
+        margin-right: 120px;
+    }
+
+    /* Black background for featured image. */
+    .site .mvdb-related-videos-image-background {
+        background:#242424;
+        height: 240px;
+    }
+
+    .site .mvdb-related-videos-image {
+        height: 220px;
+        display:block;
+        margin:auto;
+    }
+
+    /* White background for title of related post */
+    .site .mvdb-related-videos-title {
+        background: #ffffff;
+        padding:20px;
+        color: #242424;
+        margin-bottom: 40px;
+    }
+
+    /* Link hover */
+    .site .mvdb-related-videos-link:hover .mvdb-related-videos-title {
+        background: #fbc02d;
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+/* Tag List Tags */
+.site .mvdb-tag-list a {
+    display: inline-block;
+    padding: 3px 10px;
+    background: #fbc02d;
+    border-radius: 100000px;
+    color: #ffffff;
+    margin: 0px 10px 20px 0px;
+    text-transform: uppercase;
+    border:0px;
+    box-shadow: none;
+}
+
+/* Tag Hover state */
+.site .mvdb-tag-list a:hover {
+    background: #424242;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Spacing the Disqus Comments a little */
+    .site .x-comments-area {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+/* Episode Numbering */
+    .site .mvdb-episode-number {
+        display: inline-block;
+        color: #222222;
+        font-weight:600;
+    }
+
+    .site .mvdb-unauthorised-reset img{
+        width: auto;
+        position: relative;
+    }
+
+/* Episode Listing Box */
+
+    .site .mvdb_series_episode_list {
+        list-style-type: none;
+        margin-left: 0px;
+    }
+    .site .post .mvdb-content .mvdb_series_episode_list li {
+        font-size: 1em;
+        margin: 0px;
+    }
+
+    .site .mvdb_series_episode_list .mvdb_episode{
+        padding: 5px 10px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .site .mvdb_series_episode_list .mvdb_episode:hover{
+        background: #F9BE32;
+        color: #ffffff;
+    }
+
+
+    .site .mvdb_series_episode_list .even {
+        background-color: #f8f8f8;
+    }
+
+    .site .mvdb_series_episode_list .mvdb_episode_icon {
+        display: inline-block;
+        margin-right: 20px;
+        padding-top: 5px;
+    }
+    .site .mvdb_series_episode_list .mvdb_episode_order {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .site .mvdb_series_episode_list .mvdb_episode_order::after {
+        content: '.';
+    }
+    .site .mvdb_series_episode_list .mvdb_episode_title {
+        display: inline-block;
+        flex-grow: 1;
+    }
+    .site .mvdb_series_episode_list .mvdb_episode_title a {
+        color: #000000;
+        font-weight: 600;
+    }
+    .site .mvdb_series_episode_list .mvdb_episode_wpcompleted{
+        color: #F9BE32;
+        font-weight: 600;
+        margin-left: 10px;
+    }
+    .site .mvdb_series_episode_list .mvdb_episode:hover .mvdb_episode_wpcompleted{
+        color: #ffffff;
+    }
+    .site .mvdb_series_episode_list .mvdb_episode_title a:hover {
+        text-decoration: underline;
+    }
+    .site .mvdb_series_episode_list .mvdb_episode_title a:active {
+        color: #F9BE32;
+        font-weight: 600;
+    }
+    .site .mvdb_series_episode_list .mvdb_episode_duration {
+        padding-top:3px;
+        display: inline-block;
+        font-size: 0.8rem;
+    }
+    .site .mvdb_series_episode_list .mvdb_series_list_header a {
+        font-size: 1.2rem;
+        color: #242424;
+        font-weight: 100;
+        margin-left: 20px;
+    }
+    .site .mvdb_series_episode_list .mvdb_series_list_header a:hover {
+        text-decoration: underline;
+    }
+    .site .mvdb_series_episode_list .mvdb_series_icon {
+        padding-top:7px;
+    }
+
+
+/* Post Grid Footer */
+.site .post .eg-mvdb-homepage-latest-series-element-3 {
+    display: none;
+}
+
+

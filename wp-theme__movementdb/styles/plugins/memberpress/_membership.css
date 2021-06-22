@@ -1,0 +1,23 @@
+.mvdb-membership .mvdb-login-category {
+    opacity: 0.1;
+}
+
+.mvdb-membership svg {
+    fill: #ffffff;
+}
+
+.mvdb-membership .mepr-submit {
+    text-shadow: none;
+    border: 0px;
+    background-color: #F9BE32;
+}
+
+.mvdb-membership .mepr-submit:hover {
+    text-shadow: none;
+    border: 0px;
+    background-color: #E1504A;
+}
+
+.mvdb-membership .mepr_price {
+    font-size: 2.4rem;
+}

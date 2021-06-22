@@ -1,0 +1,41 @@
+.c-hero {
+
+    //  ┌───────────────────────────────────────────┐ 
+    //  │                                           │░
+    //  │          Default Grid Container           │░
+    //  │ overrides will be in a <style> above the  │░
+    //  │       actual instance of the grid.        │░
+    //  │                                           │░
+    //  └───────────────────────────────────────────┘░
+    //   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+    &-container {
+
+        overflow: hidden;  
+
+        //  ┌────────────────────────────────────────────────┐
+        //  │         Default back to using Floats           │
+        //  └────────────────────────────────────────────────┘
+        
+        display: block;
+
+        //  ┌────────────────────────────────────────────────┐
+        //  │          If the CSS supports css-grid          │
+        //  └────────────────────────────────────────────────┘
+        // @supports (display: grid) {
+        //     display:grid;
+ 
+        //     grid-row-gap: 0px;
+        //     grid-column-gap: 0px;
+
+        //     width: 100%; // need this to override any specified widths
+
+        //     //  ┌────────────────────────────────────────────────┐
+        //     //  │   Create as many columns as you like in the    │ 
+        //     //  │ horizontal-plane with a minimum size of 320px. │
+        //     //  └────────────────────────────────────────────────┘ 
+        //     grid-template-rows: 1fr;
+        //     grid-template-columns: 1fr; 
+        
+        // } 
+    }  
+} 

@@ -1,0 +1,344 @@
+/* ===============================================================
+
+ 	Project Name: MovementDB
+	Author: Andrew Pearson
+	Version: 1.0
+
+	Description:
+	Stylesheet for the buddypress / Profile pages.
+
+	References:
+
+	Colours:
+	   PRIMARY COLOURS
+        #fbc02d, #69f0ae, #1a237e, #ff5252,
+
+        GREYS
+        #242424, #424242, #757575, #e0e0e0, #ffffff,
+
+        SECONDARY GROUP
+        #ff9800, #e91e63, #9c27b0, #673ab7, #3f51b5, #2196f3,
+        #00bcd4, #009688, #4caf50, #8bc34a, #cddc39, #ffeb3b
+
+ * =============================================================== */
+
+
+
+/* ###############################################################
+	Section:    Global
+	Elements:   Containers
+ * ############################################################### */
+
+    /* Remove the white background and padding around the content. */
+    .buddypress .entry-wrap {
+        background: transparent;
+        padding: 0px;
+    }
+
+    /* padding on the bottom of the profile pages */
+    #buddypress {
+        padding-bottom: 40px;
+    }
+
+
+/* ###############################################################
+	Section:    Profile Header
+	Elements:   All
+ * ############################################################### */
+
+    /* Background of the member-header - fullwidth */
+    .buddypress #item-header {
+        background-color: transparent !important;
+        box-shadow: none  !important;
+        border: 0px !important;
+        padding: 0px !important;
+        width: 100vw;
+        position: relative;
+        padding: 50px 80px !important;
+        color: #000000;
+        font-weight: 900;
+        top: 0px;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw !important;
+        margin-right: -50vw !important;
+        margin-bottom: 0px !important;
+        background: linear-gradient(to bottom, rgba(26,35,126,1) 0%,rgba(26,35,126,0.9) 100%);
+    }
+
+    /* Reposition the username on the profile page for the bigger avatar image.*/
+    .buddypress #item-header-content {
+        width: auto !important;
+        float: left !important;
+    }
+
+    /* Title Size */
+    .buddypress .x-item-header-title {
+        /* font-size: 4rem !important;*/
+        color: #F9BE32;
+    }
+
+    /* Size of Avatar container link wrapper */
+    .buddypress #item-header-avatar {
+        min-width: 200px;
+        margin-right: 40px;
+    }
+    /* Avatar image size */
+    .buddypress .avatar {
+        max-width: 200px;
+        display: block;
+    }
+
+
+
+
+
+/* ###############################################################
+	Section:    Profile Header
+	Elements:   MyCred User Badges
+ * ############################################################### */
+
+    /* MyCred Points Balance. */
+    .buddypress .mycred-balance {
+        color: #e0e0e0;
+        font-size: 2em;
+        font-weight: 600;
+        padding:0px 0px 20px 3px;
+    }
+
+    .buddypress #mycred-users-badges > div {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 70vw;
+    }
+
+    .buddypress #mycred-users-badges .the-badge {
+        margin:10px;
+    }
+    .buddypress #mycred-users-badges .the-badge .badge-image {
+        width: 100px;
+        height: 100px;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .buddypress #mycred-users-badges .unearned-badge {
+        opacity: 0.2;
+        width: 100px;
+        height: 100px;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .buddypress #mycred-users-badges .earned-badge {
+        width: 100px;
+        height: 100px;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .buddypress #mycred-users-badges .badge-title {
+        font-weight: 100;
+    }
+    .buddypress #mycred-users-badges .earned-badge .badge-title {
+        color: #ffffff;
+    }
+
+    .mvdb_point_balance {
+        color: #F9BE32;
+    }
+
+
+/* ###############################################################
+	Section:    Sub menu
+	Elements:   All
+ * ############################################################### */
+
+    /* FULLWIDTH Menu for profile. */
+    .buddypress #item-nav {
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        margin-bottom: 0px;
+    }
+
+    /* Remove border of menubar. */
+    .buddypress .x-item-list-tabs-nav {
+        border: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    /* sub-navigation space */
+    .buddypress .x-item-list-tabs-subnav {
+        padding-top: 40px;
+    }
+
+
+/* ###############################################################
+	Section:    Content
+	Elements:   Buddypress Form Inputs
+ * ############################################################### */
+
+    /* Upload Image Button Styling */
+    .buddypress .standard-form #file {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+    }
+
+    /* Upload Image Button Label */
+    .buddypress .standard-form #file + label {
+        font-size: 16px;
+        font-weight: 100;
+        line-height: 42px;
+        font-weight: 100;
+        color: white;
+        background-color: #1a237e;
+        display: inline-block;
+        padding: 0 0.5em;
+        height: 2.65em;
+        border-radius: 0px;
+    }
+
+    .buddypress a.button.edit {
+        background-color: #E1504A;
+        border: 0px;
+        text-shadow: none;
+        color: #ffffff;
+        padding: 13px 18px 13px;
+    }
+
+    .buddypress .standard-form #file:focus + label,
+    .buddypress .standard-form #file + label:hover {
+        background-color: #e4e4e4;
+        color: #000000;
+    }
+    .buddypress .standard-form #file + label {
+        cursor: pointer; /* "hand" cursor */
+    }
+
+/* ###############################################################
+	Section:    Content
+	Elements:   Memberpress Form Items
+ * ############################################################### */
+
+    /* Info Page - Submit Button */
+    .buddypress input[type="submit"] {
+        text-shadow: none !important;
+        border: 0px !important;
+        background-color: #fbc02d !important;
+        font-size: 16px !important;
+        border-radius: 0px !important;
+    }
+    .buddypress input[type="submit"]:hover {
+        background-color: #242424 !important;
+    }
+
+    /* Subscription Page - Override Colours */
+    .mepr-account-actions a.mepr-account-cancel {
+        background-color: #E1504A;
+    }
+    .mepr-account-actions a.mepr-account-update {
+        background-color: #1A2A7E;
+    }
+
+    /* Subscription Page - Default Links */
+    #item-body .item-list-tabs a,
+    .mepr-account-actions a {
+        display: inline-block;
+        background-color: #fbc02d;
+        color: #ffffff !important;
+        padding: 10px 18px 13px;
+        font-size: 16px;
+        margin: 5px 0px 5px 10px;
+    }
+    #item-body .item-list-tabs a:hover,
+    .mepr-account-actions a:hover {
+        background-color: #242424;
+        color: #ffffff;
+    }
+    #item-body .item-list-tabs li.selected a{
+       background-color: #757575 !important;
+    }
+
+    /* Memberpress Tables */
+    .buddypress .entry-content table.mepr-account-table {
+        border: 0px solid #e0e0e0;
+        box-shadow: none;
+    }
+
+    .buddypress .entry-content table.mepr-account-table th {
+        border: 1px solid #ffffff;
+        background-color: #e0e0e0;
+        padding: 15px 5px;
+        color: #1A2A7E;
+        text-align: center;
+    }
+    .buddypress .entry-content table.mepr-account-table tr {
+        border: 0px solid #ffffff;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    .buddypress .entry-content table.mepr-account-table td {
+        border: 0px solid #ffffff;
+        padding: 15px 5px;
+    }
+
+/* ###############################################################
+	Section:    Content
+	Elements:   Charts and Graphs
+ * ############################################################### */
+
+    .chart-history-background {
+        background-color: #f0f0f0 !important;
+        width: 100vw;
+        position: relative;
+        padding: 50px 80px !important;
+        top: 0px;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+    }
+    .chart-history-container {
+        position: relative;
+        width: 100%;
+        height:300px;
+        margin:40px 0px;
+    }
+
+    .chart-donut-background {
+        background-color: #e0e0e0 !important;
+        width: 100vw;
+        position: relative;
+        padding: 50px 80px !important;
+        top: 0px;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        margin-bottom: 40px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .chart-progress,
+    .chart-achievements,
+    .chart-distribution {
+        width: 33%;
+        min-width: 300px;
+    }
+
+    .chart-progress-container,
+    .chart-achievements-container,
+    .chart-distribution-container {
+        position: relative;
+        width: 100%;
+        height:200px;
+        margin:40px 0px;
+    }

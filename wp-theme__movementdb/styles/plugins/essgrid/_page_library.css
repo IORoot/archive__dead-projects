@@ -1,0 +1,109 @@
+.library .vc_column-inner {
+    padding-top: 0px !important;
+}
+
+    /* Position of 'library' header image */
+.mvdb-library-title-image {
+    margin:15px 0px 15px 5px;
+}
+
+/* Library 'title' with background colour. */
+.mvdb-library-title {
+    padding: 10px;
+}
+
+.library a.wpc-lesson-completed span#checkmark:after {
+    content:  " \2713";
+}
+
+/* Video Skin Category wrapper */
+.eg-mvdb-videos-wrapper .mvdb-video-series {
+    max-width:170px;
+    text-align: left;
+}
+.library .mvdb-video-series {
+    max-width:170px;
+}
+/* ALL MODULES */
+    .library .mvdb-library-modules .mvdb-library-sort,
+    .library .mvdb-library-modules .mvdb-library-filter-category,
+    .library .mvdb-library-modules .mvdb-library-filter-skill
+    {
+        background: #ffffff;
+        padding: 5px 20px;
+        line-height: 30px;
+        float: right;
+        margin-left: 4px;
+        margin-bottom: 18px;
+    }
+
+/* GRID BUTTONS */
+    .library .mvdb-libary-module-button {
+        margin-bottom: 18px !important;
+    }
+    .library .mvdb-libary-module-button a {
+        background: #ffffff ;
+    }
+    .library #mvdb-library-list-button {
+        margin-right:1px;
+    }
+/* SEARCH */
+
+/* SORT */
+
+    /* Redesign the Sort boxes */
+    .library .mvdb-library-sort {
+        margin-right: 0px !important;
+    }
+    .library .esg-sortbutton {
+        margin-bottom: 6px !important;
+    }
+
+/* ALL FILTER BUTTONS */
+    .library .esg-selected-filterbutton .eg-icon-down-open {
+        width:10px;
+    }
+    .library .esg-selected-filterbutton{
+        padding: 0px;
+    }
+
+/* FILTER - SKILL */
+    .library .mvdb-library-filter-skill .esg-selected-filterbutton {
+        padding: 0px;
+    }
+
+/* FILTER - CATEGORY */
+
+    /* Redesign the Filter Boxes */
+    .library .mvdb-library-filter-category .esg-selected-filterbutton {
+        padding: 0px;
+    }
+
+/* FILTER DROPDOWNS */
+
+    .library .esg-dropdown-wrapper {
+        width:200px;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+    }
+    .library .esg-filter-checked {
+        margin-right:5px;
+    }
+    .library .esg-filterbutton {
+        border-right: 0px !important;
+    }
+
+
+
+/* LIST VIEW */
+    /* Resize Images on the library 'list' view */
+    .library .eg-mvdb-library-posts-listing-wrapper .esg-entry-cover {
+        min-height: 40px;
+    }
+    /* Remove the main image in the list view. */
+    .library .eg-mvdb-library-posts-listing-wrapper .esg-media-poster {
+        background-image: none !important;
+    }
+    /* Make sure there is always space under the list item and is maximum of 40px high. */
+    .library .eg-mvdb-library-posts-listing-wrapper .esg-entry-media-wrapper {
+        max-height: 40px;
+    }

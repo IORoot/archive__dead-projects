@@ -1,0 +1,32 @@
+#rev_slider_4_1 .glyph svg,
+#rev_slider_10_1 .mvdb-homepage-glyph .glyph svg {
+    fill-opacity: 0;
+}
+
+#rev_slider_4_1  .glyph svg ,
+#rev_slider_10_1 .active-revslide .mvdb-homepage-glyph .glyph svg {
+    fill-opacity: 0;
+    stroke: #000000;
+    stroke-width: 1;
+    stroke-dasharray: 1500px;
+    stroke-dashoffset: 1500px;
+    animation-name: draw, fillit;
+    animation-duration: 4s, 2s;
+    animation-delay: 0s, 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fillit {
+    to {
+        fill-opacity: 1;
+        stroke-opacity: 0;
+    }
+}

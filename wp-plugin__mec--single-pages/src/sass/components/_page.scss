@@ -1,0 +1,62 @@
+
+
+.mec-container {
+    width:100%;
+    padding: 0px;
+
+    .mec-wrap {
+
+        // import defaults
+        @import "typography";
+
+        blockquote {
+            background-color: #f5f5f5;
+            margin: 29px 0px;
+            padding: 29px;
+        }
+        p, abbr, dd, ul, ol {
+            margin-bottom:29px;
+        }
+        strong {
+            font-family: $font__family;
+            font-weight: 600;
+        }
+
+        .mec-single-event {
+            margin: 0px;
+    
+            .col-md-12 { 
+                padding: 0px;
+            } 
+
+            .mec-event-content {
+                color: #242424;
+                padding: 87px 0px 0px;
+            } 
+
+            h1 {
+                text-align: center;
+                margin-bottom:29px;
+            }
+            h2 {
+                text-align: center;
+            }
+            
+    
+            @import "link_box"; 
+            @import "event_meta"; 
+            @import "event_countdown"; 
+            @import "event_weather"; 
+            @import "event_map"; 
+            @import "booking_button"; 
+            @import "social_media"; 
+        }
+    }
+    
+} 
+
+@media (max-width: 768px) {
+    .mec-events-event-image {
+        margin-top:58px;
+    }
+}

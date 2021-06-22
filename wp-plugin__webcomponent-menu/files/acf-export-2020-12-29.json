@@ -1,0 +1,302 @@
+[
+    {
+        "key": "group_5fe84eb20dbff",
+        "title": "Atomic Design",
+        "fields": [
+            {
+                "key": "field_5fe98fe70cf37",
+                "label": "<span class=\"mdi mdi-earth\"><\/span> Environment",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5fe9c32e92720",
+                "label": "",
+                "name": "environment",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "layout": "block",
+                "sub_fields": []
+            },
+            {
+                "key": "field_5fe98efb0cf34",
+                "label": "<span class=\"mdi mdi-atom\"><\/span> Atoms",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5fe9c34792721",
+                "label": "",
+                "name": "atoms",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "layout": "block",
+                "sub_fields": []
+            },
+            {
+                "key": "field_5fe98f1b0cf35",
+                "label": "<span class=\"mdi mdi-molecule\"><\/span> Molecules",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5fe9c35192722",
+                "label": "",
+                "name": "molecules",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "layout": "block",
+                "sub_fields": []
+            },
+            {
+                "key": "field_5fe98f270cf36",
+                "label": "<span class=\"mdi mdi-bacteria\" ><\/span> Organisms",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5fe8544bfe009",
+                "label": "",
+                "name": "page_instance",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "collapsed": "field_5fe85460fe00a",
+                "min": 0,
+                "max": 0,
+                "layout": "block",
+                "button_label": "Add Page",
+                "sub_fields": [
+                    {
+                        "key": "field_5fe85460fe00a",
+                        "label": "Page",
+                        "name": "page",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5fe84f9089929",
+                        "label": "WebComponents",
+                        "name": "webcomponent_instance",
+                        "type": "flexible_content",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "layouts": {
+                            "layout_5fe85045eb5bf": {
+                                "key": "layout_5fe85045eb5bf",
+                                "name": "hero",
+                                "label": "<span class=\"mdi mdi-page-layout-header\"><\/span> Hero : Anime.js",
+                                "display": "block",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_5fe86596f247a",
+                                        "label": "",
+                                        "name": "",
+                                        "type": "clone",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "clone": [
+                                            "group_5fe851833a553"
+                                        ],
+                                        "display": "seamless",
+                                        "layout": "block",
+                                        "prefix_label": 0,
+                                        "prefix_name": 0
+                                    }
+                                ],
+                                "min": "",
+                                "max": ""
+                            },
+                            "layout_5fe8648e23989": {
+                                "key": "layout_5fe8648e23989",
+                                "name": "info_panel",
+                                "label": "<span class=\"mdi mdi-page-layout-body\"><\/span> Info Panel : Apple",
+                                "display": "block",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_5fe8648e2398a",
+                                        "label": "",
+                                        "name": "",
+                                        "type": "clone",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "clone": [
+                                            "group_5fe85fa752427"
+                                        ],
+                                        "display": "seamless",
+                                        "layout": "block",
+                                        "prefix_label": 0,
+                                        "prefix_name": 0
+                                    }
+                                ],
+                                "min": "",
+                                "max": ""
+                            },
+                            "layout_5fe86b1fe3908": {
+                                "key": "layout_5fe86b1fe3908",
+                                "name": "random_video_panel",
+                                "label": "<span class=\"mdi mdi-play-box\"><\/span> Random Video Panel",
+                                "display": "block",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_5fe86b4fe3909",
+                                        "label": "",
+                                        "name": "",
+                                        "type": "clone",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "clone": [
+                                            "group_5fe86a6c2d3b0"
+                                        ],
+                                        "display": "seamless",
+                                        "layout": "block",
+                                        "prefix_label": 0,
+                                        "prefix_name": 0
+                                    }
+                                ],
+                                "min": "",
+                                "max": ""
+                            }
+                        },
+                        "button_label": "Add Component",
+                        "min": "",
+                        "max": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "webcomponents"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

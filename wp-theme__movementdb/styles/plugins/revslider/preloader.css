@@ -1,0 +1,7 @@
+.tp-loader.spinner0 {
+    background-image: url('http://www.movementdb.com/wp-content/uploads/2017/11/mvdb_preloader.gif') !important;
+    width: 100px !important;
+    height: 60px !important;
+    box-shadow: none;
+    animation: none;
+}

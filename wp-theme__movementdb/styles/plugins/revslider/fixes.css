@@ -1,0 +1,7 @@
+/**
+ * This is to remove the red line below a slider revolution container.
+ * Default feature of X Theme.
+ */
+.site .x-slider-container.below {
+    border-bottom: none;
+}

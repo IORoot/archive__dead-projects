@@ -1,0 +1,6 @@
+/* User sub-menu remove text on mobile. */
+@media (max-width: 768px) {
+    .ubermenu-account_menu .ubermenu-target-title {
+        display:none !important;
+    }
+}

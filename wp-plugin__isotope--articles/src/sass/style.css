@@ -1,0 +1,160 @@
+.andyp-isotope {
+  position: relative;
+}
+.andyp-isotope__header {
+  color: #757575;
+  margin-top: 29px;
+}
+.andyp-isotope__header-tax {
+  font-size: 18px;
+  color: #E86546;
+  margin-left: 10px;
+}
+.andyp-isotope__header .mdi {
+  width: 29px;
+  height: 29px;
+}
+.andyp-isotope__cell {
+  display: initial;
+  width: 20%;
+  height: 203px;
+  padding-right: 20px;
+  margin-bottom: 29px;
+}
+.andyp-isotope__cell-link {
+  text-decoration: none;
+  display: block;
+  color: #242424;
+  position: relative;
+}
+.andyp-isotope__cell-link:hover .andyp-isotope__cell-overlay {
+  opacity: 1;
+}
+.andyp-isotope__cell-link:hover .andyp-isotope__cell-title {
+  color: #53A5E3;
+  transition: all 0.2s ease-in;
+}
+.andyp-isotope__cell-overlay {
+  position: absolute;
+  height: calc(100% - 29px);
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  overflow: hidden;
+  padding: 20px;
+  transition: all 0.3s ease-in;
+  opacity: 0;
+  color: #FAFAFA;
+}
+.andyp-isotope__cell-overlay .andyp-isotope__cell-icon {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 58px;
+  width: 58px;
+  background-size: 58px;
+}
+.andyp-isotope__cell-meta {
+  line-height: 29px;
+}
+.andyp-isotope__cell-image {
+  border-radius: 4px;
+  height: 145px;
+  background-size: cover;
+  background-position: center;
+  background-color: #FAFAFA;
+  background-repeat: no-repeat;
+}
+.andyp-isotope__cell-title {
+  color: #242424;
+  max-height: 29px;
+  overflow: hidden;
+  padding-left: 25px;
+}
+.andyp-isotope__cell-date {
+  position: absolute;
+  width: 100%;
+  right: 0px;
+  padding: 29px 10px 0px 0px;
+  text-align: right;
+  bottom: 29px;
+  font-size: 14px;
+  color: #E0E0E0;
+  border-radius: 5px;
+}
+.andyp-isotope__cell-icon {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 29px;
+  height: 29px;
+  background-size: 18px;
+  background-position: left center;
+}
+.andyp-isotope__cell-count {
+  font-size: 14px;
+  color: #E0E0E0;
+}
+.andyp-isotope #andyp-isotope__results-total {
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  font-size: 29px;
+  line-height: 58px;
+  font-weight: 400;
+  color: #53A5E3;
+}
+.andyp-isotope #andyp-isotope__results-total:after {
+  content: " results";
+}
+.andyp-isotope__filters {
+  margin: 0px 0px 29px 0px;
+}
+.andyp-isotope__filter {
+  position: relative;
+  display: inline-block;
+  width: 33.33%;
+  padding-right: 20px;
+}
+.andyp-isotope__select {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #E0E0E0;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  line-height: 58px;
+  background: none;
+  padding-left: 20px;
+  color: #757575;
+}
+.andyp-isotope__select-icon {
+  position: absolute;
+  right: 40px;
+  padding-top: 2px;
+  font-size: 18px;
+  line-height: 58px;
+  font-size: 18px;
+  color: #757575;
+  pointer-events: none;
+}
+.andyp-isotope__option {
+  line-height: 29px;
+}
+
+@media (max-width: 1023px) {
+  .andyp-isotope__cell {
+    width: 50% !important;
+  }
+}
+@media (max-width: 767px) {
+  .andyp-isotope__cell {
+    width: 50% !important;
+  }
+
+  #andyp-isotope__results-total,
+.andyp-isotope__select-icon {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

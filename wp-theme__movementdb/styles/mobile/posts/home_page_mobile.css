@@ -1,0 +1,65 @@
+/*
+    The standard width breakpoints.
+
+    - 0px to 960px  (mobile)
+    - 960px to 1024 (tablet)
+    - 1024px +      (desktop)
+
+ */
+
+
+/*
+ * Anything OVER 960px
+ * - Desktop
+ * - min-width: 960px
+ */
+
+        /*
+         * Display a logo with a WHITE 'database' word. This is to contrast
+         * against the coloured / gradient background.
+         * Otherwise revert back to the black version.
+         */
+        @media screen and (min-width: 959px) {
+            .home .x-brand {
+                width: 240px; height: 80px;
+                background: url("http://www.movementdb.com/wp-content/uploads/2017/11/Logo_240x80_trans_white.png");
+            }
+            .home .x-brand img {
+                display: none;
+            }
+        }
+
+
+
+/*
+ * Anything UNDER 960px
+ * - Tablet / Mobile
+ * - max-width: 960px
+ */
+        @media screen and (max-width: 960px) {
+
+            /* Header Logo - move down slightly */
+            .site .x-brand {
+                margin-top: 10px;
+            }
+            /* Change the logo to MVDB */
+            .x-brand {
+                width: 130px;
+                height: 70px;
+                background: url("http://www.movementdb.com/wp-content/uploads/2018/02/Logo_MVDB_130x70.png");
+            }
+            /* Hide the default img. */
+            .x-brand img {
+                display: none;
+            }
+
+            /* Remove 'Latest Series' and separator on homepage */
+            .mvdb-hide-960 {
+                display: none !important;
+            }
+
+            /* Move essential grid up a bit. */
+            .home #esg-grid-15-1 {
+                padding-top: 0px !important;
+            }
+        }

@@ -1,0 +1,16 @@
+#sfm-sidebar.sfm-compact .sfm-logo {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.sfm-pos-right .sfm-sidebar-close {
+    float: right;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.sfm-nav .widget-area .mvdb-menu-profile{
+    font-size: 20px;
+    color: #242424;
+    font-weight: normal;
+}

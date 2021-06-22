@@ -1,0 +1,108 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Override the Font-awesome 5 crap that ubermenu has done. */
+i.fa{
+    font:normal normal normal 14px/1 FontAwesome;
+}
+
+/* Default page - remove shadow and paddings*/
+.site .entry-wrap {
+    box-shadow: none;
+    padding: 0px;
+}
+
+/**
+ * Remove the bottom border and shadow that appears as default on the X-Theme menubar.
+ */
+.site .x-navbar {
+    border-bottom : none;
+    box-shadow    : none;
+}
+
+/**
+ * Footer Colour
+ */
+.site .x-colophon {
+    background-color: #424242;
+}
+
+/**
+ * Margin under the navbar
+ */
+.site .x-brand {
+    margin-bottom: 10px;
+}
+.site .x-container.offset {
+    margin: auto;
+}
+
+/* Break the bounding box container and go full width. the 13% is close, but not quite right. */
+.site .full-width {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    padding-left: 13%;
+    padding-right: 13%;
+    background-color: #242424;
+}
+
+/* Override the X-Theme Video embed widget to get rid of the img:absolute rule to stop weird things happening to
+ * The Memberpress - unauthorised video messages (Slider Revolution shortcode)
+*/
+.site .x-video .x-video-inner embed,
+.x-video .x-video-inner iframe,
+.x-video .x-video-inner img,
+.x-video .x-video-inner object,
+.x-video .x-video-inner video {
+    position: relative;
+}
+
+/* Ubermenu Avatar size */
+.mvdb-menu-avatar {
+    max-width: 20px;
+    max-height: 20px;
+    margin-right:5px;
+    border-radius: 50%
+}
+.mvdb-menu-name {
+    line-height: 20px;
+}
+
+/* SITE PAGE FONT SIZES */
+
+.site .page h1 {
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 6.5rem;
+    margin-top: 0px;
+}
+
+.site .page h2 {
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 4.5rem;
+    margin-top: 0px;
+}
+
+.site .page h3 {
+    font-size: 2.5rem;
+    font-weight: 100;
+    line-height: 3.5rem;
+    margin-top:0px;
+}
+
+.site .page h4 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3rem;
+    margin: 0px;
+}
+
+.site div.x-pagination {
+    margin-bottom: 40px !important;
+}

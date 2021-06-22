@@ -1,0 +1,12 @@
+{
+    "name": "andrewpearson/andyp_mec_ix_filter",
+    "authors": [
+        {
+            "name": "Andy Pearson",
+            "email": "andy@londonparkour.com"
+        }
+    ],
+    "require": {
+        "erusev/parsedown": "^1.7"
+    }
+}

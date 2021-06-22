@@ -1,0 +1,6 @@
+/* Changes the colour of the background of the text input in the page builder.
+ * This is a slight yellow colour so that you can read any white text.
+*/
+.wpb_vc_column_text>.wpb_element_wrapper {
+    background-color: #f9fbe7 !important;
+}

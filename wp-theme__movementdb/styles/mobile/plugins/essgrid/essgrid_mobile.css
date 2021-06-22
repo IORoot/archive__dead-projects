@@ -1,0 +1,30 @@
+/* Responsive Font sizes for the list-view skin. */
+@media only screen and (max-width: 768px) {
+    .library .eg-mvdb-library-posts-listing-element-7,
+    .library .eg-mvdb-library-posts-listing-element-3 {
+        font-size: 1rem !important;
+    }
+}
+
+/* Media Queries to Remove layers */
+/* Remove Category and Skill level fields */
+@media (max-width: 1024px) {
+    #esg-grid-4-1 .eg-mvdb-series-list-element-8,
+    #esg-grid-4-1 .eg-mvdb-series-list-element-11 {
+        display: none;
+    }
+}
+/* Remove Runtime field */
+@media (max-width: 768px) {
+    #esg-grid-4-1 .eg-mvdb-series-list-element-4,
+    #esg-grid-4-1 .eg-mvdb-series-list-element-9 {
+        display: none;
+    }
+}
+
+/* SORT BUTTON RESPONSIVE SWITCH SIDES */
+@media (max-width: 640px) {
+    .esg-sortbutton-wrapper {
+        float: left;
+    }
+}

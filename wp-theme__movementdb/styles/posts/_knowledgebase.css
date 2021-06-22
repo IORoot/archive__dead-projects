@@ -1,0 +1,102 @@
+
+/*
+    Accordion Sidebar menu
+ */
+    /* Top-level terms*/
+    .knowledgebase-template-default ul.mvdb-kb-accordion-menu {
+        list-style-type: none;
+        margin: 0em 0px 0px 0px;
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+        border-radius: 3px;
+        box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    }
+
+
+            .knowledgebase-template-default .vc_tta-panel-body {
+                padding: 14px 10px !important;
+            }
+
+
+
+            /* Term - Label */
+            .knowledgebase-template-default label.mvdb-kb-term-label {
+                padding: 8px 10px;
+            }
+            .knowledgebase-template-default label.mvdb-kb-term-label:hover {
+                background-color: #f0f0f0;
+            }
+
+            /* Term - Caret */
+            .knowledgebase-template-default i.mvdb-kb-caret {
+                margin-right: 5px;
+                padding-right: 5px;
+            }
+
+                    /* If term is clicked on, change icon to down caret and make icon not move label. */
+                    .knowledgebase-template-default .mvdb-kb-accordion-menu input[type=checkbox]:checked + label i.mvdb-kb-caret {
+                        padding-right: 2px;
+                    }
+                    .knowledgebase-template-default .mvdb-kb-accordion-menu input[type=checkbox]:checked + label i:before {
+                        content: "\f0d7" !important;
+                    }
+
+    /* List of all posts */
+    .knowledgebase-template-default ul.mvdb-kb-term-list {
+        margin: 0px;
+    }
+
+    /* Each list item */
+    .knowledgebase-template-default li.mvdb-kb-post {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 6px 0px 6px 25px;
+        background-color: #f9f9f9;
+        border-bottom: 1px solid #eee;
+    }
+            .knowledgebase-template-default li.mvdb-kb-post:hover {
+                background-color: #e9e9e9;
+            }
+
+            .knowledgebase-template-default .mvdb-kb-post-title {
+                color: #4183C4;
+            }
+
+            .knowledgebase-template-default .mvdb-kb-post-internal {
+                font-size:14px;
+                color: #F9BE32;
+                float: right;
+                margin-right: 10px;
+                padding-top:2px;
+            }
+
+/*
+    The nuts-and-bolts of opening / closing the menu
+*/
+
+        /* hide native checkbox which opens / closes the submenus */
+        .knowledgebase-template-default .mvdb-kb-accordion-menu input[type=checkbox] {
+            position: absolute;
+            opacity: 0;
+        }
+        /* Term header */
+        .knowledgebase-template-default .mvdb-kb-accordion-menu label, .mvdb-kb-accordion-menu a {
+            position: relative;
+            display: block;
+            margin: 0;
+            color: #666;
+            border-bottom: 1px solid #eee;
+            font-size: 14px;
+        }
+        .knowledgebase-template-default .mvdb-kb-accordion-menu ul {
+            /* by default hide all sub menus */
+            list-style-type: none;
+            display: none;
+        }
+
+        .knowledgebase-template-default .mvdb-kb-accordion-menu input[type=checkbox]:checked + label + ul,
+        .knowledgebase-template-default .mvdb-kb-accordion-menu input[type=checkbox]:checked + label:nth-of-type(n) + ul {
+            /* use label:nth-of-type(n) to fix a bug on safari (<= 8.0.8) with multiple adjacent-sibling selectors*/
+            /* show children when item is checked */
+            display: block;
+        }

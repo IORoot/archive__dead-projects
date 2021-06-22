@@ -1,0 +1,10 @@
+#mec_weather_details {
+    width: 50%;
+    float: left;
+}
+
+@media (max-width: 1024px) {
+    #mec_weather_details {
+        width: 100%;
+    }
+}

@@ -1,0 +1,216 @@
+// Isotope CSS
+
+$tablet: 1023px;
+$mobile: 767px; 
+
+.andyp-isotope {
+
+    position: relative; 
+
+    //  ┌─────────────────────────────────────────────────────────────────────────┐
+    //  │                                                                         │
+    //  │                                Header H3                                │
+    //  │                                                                         │
+    //  └─────────────────────────────────────────────────────────────────────────┘                                                                          
+    &__header {
+        color: #757575;
+        margin-top: 29px;
+
+        &-tax {
+            font-size: 18px;
+            color: #E86546;
+            margin-left: 10px;
+        }
+
+        .mdi {
+            width: 29px;
+            height: 29px;
+        } 
+    }
+
+    //  ┌─────────────────────────────────────────────────────────────────────────┐
+    //  │                                                                         │
+    //  │                           Result Item (cell)                            │
+    //  │                                                                         │
+    //  └─────────────────────────────────────────────────────────────────────────┘
+    &__cell {
+        display: initial;
+        width: 20%;
+        height: 203px;
+        padding-right: 20px;
+        margin-bottom:29px;
+
+        &-link {
+            text-decoration: none; 
+            display: block;
+            color: #242424; 
+            position: relative;
+
+            &:hover {
+
+                .andyp-isotope__cell-overlay {
+                    opacity:1;
+                }
+
+                .andyp-isotope__cell-title {
+                    color: #53A5E3;
+                    transition: all 0.2s ease-in;   
+                } 
+            }
+        }
+
+        &-overlay {
+            position: absolute;
+            height: calc(100% - 29px);
+            background: rgb(0, 0, 0, 0.5);
+            width: 100%;
+            overflow: hidden;
+            padding: 20px;
+            transition: all 0.3s ease-in;  
+            opacity:0;
+            color: #FAFAFA;
+
+            .andyp-isotope__cell-icon {
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                height: 58px;
+                width: 58px;
+                background-size: 58px;
+            }
+        }
+
+        // Each piece of meta-data
+        &-meta {
+            line-height: 29px;
+        }
+
+        &-image {
+            border-radius: 4px;
+            height: 145px;
+            background-size: cover;
+            background-position: center;
+            background-color: #FAFAFA;
+            background-repeat: no-repeat;
+        }
+
+        &-title {
+            color: #242424;
+            max-height: 29px;
+            overflow: hidden;
+            padding-left: 25px;
+        }
+
+        &-date { 
+            position: absolute;
+            width: 100%;
+            right: 0px;
+            padding: 29px 10px 0px 0px;
+            text-align: right;
+            bottom:29px;
+            font-size: 14px;
+            color: #E0E0E0;
+            border-radius: 5px;
+        }
+
+        &-icon {
+            position: absolute; 
+            bottom: 0px;
+            left: 0px;
+            width: 29px;
+            height: 29px;
+            background-size: 18px;
+            background-position: left center;
+        } 
+
+        &-count {
+            font-size: 14px;
+            color: #E0E0E0;
+        }
+    }
+
+    //  ┌─────────────────────────────────────────────────────────────────────────┐
+    //  │                                                                         │
+    //  │                           Filter Select Boxes                           │
+    //  │                                                                         │
+    //  └─────────────────────────────────────────────────────────────────────────┘
+
+    #andyp-isotope__results-total {
+        position: absolute;
+        right: 20px;
+        top: 0px;
+        font-size: 29px;
+        line-height: 58px;
+        font-weight: 400;
+        color: #53A5E3;
+
+        &:after {
+            content: ' results';
+        }
+    }
+
+    &__filters {
+        margin: 0px 0px 29px 0px;
+    }
+
+    &__filter {
+        position: relative;
+        display: inline-block;
+        width: 33.33%;
+        padding-right: 20px;
+    } 
+
+    &__select {
+        box-sizing: border-box;
+        width:100%;
+        border: 1px solid #E0E0E0;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        line-height: 58px;
+        background: none;
+        padding-left: 20px;
+        color: #757575;
+
+    }
+
+    &__select-icon {
+        position: absolute;
+        right:40px;
+        padding-top: 2px;
+        font-size: 18px;
+        line-height: 58px;
+        font-size: 18px;
+        color: #757575;
+        pointer-events: none;
+    }
+
+    &__option {
+        line-height: 29px;
+    }
+
+
+}
+
+// Change widths on tablet.
+@media (max-width: $tablet) {
+    .andyp-isotope {  
+        &__cell {
+            width: 50% !important;
+        }  
+    }
+}
+
+// Change widths on tablet.
+@media (max-width: $mobile) {
+    .andyp-isotope {  
+        &__cell {
+            width: 50% !important; 
+        }
+    }
+
+    #andyp-isotope__results-total,
+    .andyp-isotope__select-icon {
+        display: none;
+    }
+}

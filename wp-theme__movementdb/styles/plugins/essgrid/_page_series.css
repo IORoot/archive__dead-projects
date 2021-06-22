@@ -1,0 +1,151 @@
+.series .vc_column-inner {
+    padding-top: 0px !important;
+}
+
+/* Grid Items */
+/* ----------------------- */
+
+    .series .eg-mvdb-library-posts-wrapper .mvdb-video-series {
+        max-width:170px;
+    }
+
+    /* Series Item Category */
+    .series .eg-mvdb-series-element-6,
+    .series .eg-mvdb-series-element-3
+    {
+        color: inherit;
+    }
+
+    /* Glyph Icon Size */
+    .series .mvdb-series-listing-title
+    {
+        padding: 20px 40px;
+        margin: 20px -20px 0px -20px;
+        opacity: 0.95;
+    }
+
+    /* Link SVG Image */
+    .eg-mvdb-series-element-2 svg {
+        width: 120px;
+        height: 120px;
+        fill: #ffffff !important;
+    }
+
+    /* Episode Number behind media image */
+    #esg-grid-2-1 .esg-entry-media:after {
+        content: "";
+        color: #e0e0e0;
+        position: absolute;
+        font-size: 300px;
+        font-weight: 900;
+        line-height: 200px;
+        bottom: 25px;
+    }
+
+
+/* LIST Items */
+/* ----------------------- */
+
+    /* Image Media LEFT side split. */
+    .series .esg-split-content .esg-entry-media-wrapper {
+        width: 10% !important;
+    }
+    /* Cover RIGHT side split. */
+    .series .esg-split-content .esg-entry-cover {
+        width: 90% !important;
+    }
+
+
+
+
+
+/* SORT and FILTER Button Icons */
+/* ---------------------------- */
+
+.mvdb-skin .esg-sortbutton:before 	{
+    font-family: FontAwesome;
+    content: "\f0dc";
+    padding-right: 5px;
+}
+
+.mvdb-filter-skill .esg-selected-filterbutton span:before {
+    font-family: FontAwesome;
+    content: "\f012";
+    padding-right: 5px;
+}
+
+.mvdb-filter-category .esg-selected-filterbutton span:before {
+    font-family: FontAwesome;
+    content: "\f02c";
+    padding-right: 5px;
+}
+
+.mvdb-filter-free .esg-selected-filterbutton span:before {
+    font-family: FontAwesome;
+    content: "\f06b";
+    padding-right: 5px;
+}
+
+/* ZEBRA BACKGROUNDS (EVERY 2nd ROW) */
+.mvdb-skin .esg-filterbutton:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+/* SORT BUTTON RESPONSIVE SWITCH SIDES */
+.esg-sortbutton-wrapper {
+    float: right;
+}
+
+/* MVDB Skin Dropdown */
+    .mvdb-filter-skin {
+        display: inline-block;
+        float: left;
+        margin-right: 5px;
+        cursor: pointer;
+        position: relative;
+    }
+    .mvdb-filter-skin:hover .mvdb-dropdown-wrapper{
+        display:block;
+    }
+    .mvdb-dropdown-button {
+        padding: 0px 10px 0px 20px;
+        margin: 0px;
+        background-color: #ffffff;
+        line-height: 40px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .mvdb-dropdown-wrapper {
+        display: none;
+        padding: 0px;
+        width: 120px;
+        position: absolute;
+        background: #fff;
+        z-index: 10;
+    }
+
+    .mvdb-filterbutton a {
+        color: #242424;
+        display: block;
+        cursor: pointer;
+        position: relative;
+        border: none;
+        line-height: 40px;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Open Sans",sans-serif;
+        padding: 0px 20px;
+    }
+    .mvdb-filterbutton:nth-child(odd) {
+        background-color: #f0f0f0;
+    }
+    .mvdb-filterbutton i {
+        font-size: 14px;
+    }
+    .mvdb-filterbutton a:hover {
+        background-color: #F9BE32;
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+ /* Free or Pro */
